@@ -18,7 +18,7 @@ if (empty($table) || empty($value)) {
   echo "Ошибка получения данных";
 } else {
   $rows = DB::singleRow("SELECT * FROM {$table} WHERE {$filed}=?", $value);
-
+  if (!empty($rows)) :
   switch ($table) {
     case "computers":
       echo '<br/>';
@@ -29,8 +29,10 @@ if (empty($table) || empty($value)) {
 
       break;
     case "accounts":
+      $fio = !empty($rows['account']) ? getDisplayName($rows['account']) : $rows['surname']." ".$rows['name']." ".$rows['patronymic'];
+
       echo '<br/>';
-      echo '<span class="gr">Фамилия Имя Отчество:</span> ' . getDisplayName($rows['account']) . '<br/>';
+      echo '<span class="gr">Фамилия Имя Отчество:</span> ' . $fio . '<br/>';
       echo '<span class="gr">Учетная запись:</span> ' . getLinkAccounts($rows['account'], false, false) . '<br/>';
       echo '<span class="gr">Почтовый ящик:</span> <a href="mailto:'.$rows['mail'].'" class="ml">' . $rows['mail'] . '</a><br/>';
       echo '<span class="gr">Рабочий телефон:</span> ' . $rows['phone'] . '<br/>';
@@ -40,4 +42,7 @@ if (empty($table) || empty($value)) {
 
       break;
   }
+  else :
+    echo "<br/>Данных не обнаружено";
+  endif;
 }

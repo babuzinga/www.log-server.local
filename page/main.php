@@ -9,7 +9,7 @@ echo "<table><tr><td>";
 
 $computers = DB::getRows("SELECT computername, COUNT(logs.id) AS cnt FROM logs WHERE dt=? GROUP BY computername ORDER BY cnt DESC LIMIT ?i", $dt, $limit);
 foreach ($computers as $computer) {
-  echo '('.$computer['cnt'].') '.getLinkComputer($computer['computername']).'<br/>';
+  echo '('.$computer['cnt'].') '.getLinkComputer($computer['computername'], false).'<br/>';
 }
 
 

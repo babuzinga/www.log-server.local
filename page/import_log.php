@@ -1,29 +1,30 @@
 <?php
 
-DB::query("TRUNCATE logs");
+$dt_current = date("Y-m-d");
+DB::query("DELETE FROM logs WHERE dt=?", $dt_current);
 
 $folder = '//kms-file-1/log$';
 $f = scandir($folder);
-foreach ($f as $file){
-  if(preg_match('/\.(log)/', $file)){
-    $file = fopen($folder.'/'.$file, 'r');
+foreach ($f as $file) {
+  if (pathinfo($file, PATHINFO_EXTENSION) == 'log'){
+    $file_log = fopen($folder.'/'.$file, 'r');
 
-    while(!feof($file)) {
-      $str = fgets($file);
+    while(!feof($file_log)) {
+      $str = fgets($file_log);
       if (empty($str)) continue;
       $str = str_replace("\r\n", "", $str);
       $row = explode(";", $str);
 
-      $dt = $row[0];
-      $tm = $row[1];
+      $dt           = $row[0];
+      $tm           = $row[1];
       $computername = $row[2];
-      $account = mb_strtolower($row[3]);
-      $domain = $row[4];
-      $system = $row[5];
-      $arch = $row[6];
-      $action = $row[7];
-      $ip = !empty($row[8]) ? $row[8] : "";
-      $ip = str_replace(" ", "", $ip);
+      $account      = mb_strtolower($row[3]);
+      $domain       = $row[4];
+      $system       = $row[5];
+      $arch         = $row[6];
+      $action       = $row[7];
+      $ip           = !empty($row[8]) ? $row[8] : "";
+      $ip           = str_replace(" ", "", $ip);
 
       DB::query("INSERT INTO logs (dt,tm,computername,account,domain,action) VALUES (?,?,?,?,?,?)",
       $dt, $tm, $computername, $account, $domain, $action);
@@ -36,7 +37,11 @@ foreach ($f as $file){
         DB::query("UPDATE computers SET ip=?, system=?, arch=? WHERE name=?", $ip, $system, $arch, $computername);
       }
     }
-    fclose($file);
+
+    fclose($file_log);
+
+    if ($file!=$dt_current.'.log')
+      rename ($folder.'/'.$file, $folder.'/'.$file.'.bak');
   }
 }
 echo "complete";
