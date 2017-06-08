@@ -1,0 +1,4 @@
+ќшибка при выполнении запроса: SELECT * FROM sp WHERE id=?25
+<br>ќписание ошибки: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?25' at line 1
+�?дрес по которому произошла ошибка: /unit/?sp=25&level=1
+
