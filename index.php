@@ -61,11 +61,17 @@ ini_set("memory_limit", "-1");
   a {
     color: #c90000;
   }
+  a.ml {
+    color: black;
+  }
   a:hover {
     text-decoration: none;
   }
   select {
     padding: 4px;
+  }
+  span.gr {
+    color: gray;
   }
 </style>
 
@@ -100,6 +106,7 @@ ini_set("memory_limit", "-1");
   <div class="search">
     <a href="/">Главная</a>
     &mdash; <a href="/logs/">Логи</a>
+    &mdash; <a href="/import/">Импорт</a>
     &mdash; Поиск: <input value="" placeholder="Логин, фамилия или имя компьютера" type="text" id="data-search" style="width:300px">
     <div id="result-search"></div>
   </div>

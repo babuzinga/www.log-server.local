@@ -27,14 +27,16 @@ $d = !empty($_POST['val']) ? $_POST['val'] : false;
 if (empty($d)) return false;
 
 $result = "";
-$computers = DB::getRows('SELECT name FROM computers WHERE name LIKE "%'.$d.'%"');
+$computers = DB::getRows('SELECT name FROM computers WHERE name!="" AND name LIKE "%'.$d.'%"');
 foreach ($computers as $computer) {
-  $result .= getLinkComputer($computer['name'], false).'<br/>';
+  if (empty($computer['name'])) continue;
+  $result .= getLinkComputer($computer['name']).'<br/>';
 }
 
-$accounts = DB::getRows('SELECT account FROM accounts WHERE surname LIKE "%'.$d.'%" OR account LIKE "%'.$d.'%"');
+$accounts = DB::getRows('SELECT account FROM accounts WHERE (surname!="" AND surname LIKE "%'.$d.'%") OR (account!="" AND account LIKE "%'.$d.'%")');
 foreach ($accounts as $account) {
-  $result .= getLinkAccounts($account['account'], false).'<br/>';
+  if (empty($account['account'])) continue;
+  $result .= getLinkAccounts($account['account']).'<br/>';
 }
 
 echo "<br/>".$result;

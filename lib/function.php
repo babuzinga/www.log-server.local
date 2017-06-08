@@ -61,21 +61,26 @@ function getVersion($computer) {
   return $version;
 }
 
-function getLinkAccounts($account_name, $card=true) {
+function getLinkAccounts($account_name, $fio=true, $card=true) {
+  if (empty($account_name)) return false;
+
   $link = '<a href="/statistics/?o=account&v='.$account_name.'">'.$account_name.'</a> ';
+  if ($fio)
+    $link .= getDisplayName($account_name) . ' ';
   if ($card)
-    $link .= '[<a href="/card/?o=account&v='.$account_name.'" target="_blank">инф.</a>]';
-  else
-    $link .= getDisplayName($account_name);
+    $link .= '[<a href="/card/?o=account&v='.$account_name.'">инф.</a>]';
+
   return $link;
 }
 
-function getLinkComputer($computer_name, $card=true) {
+function getLinkComputer($computer_name, $ver=true, $card=true) {
+  if (empty($computer_name)) return false;
+
   $link = '<a href="/statistics/?o=computername&v='.$computer_name.'">'.$computer_name.'</a> ';
+  if ($ver)
+    $link .= getVersion($computer_name) . ' ';
   if ($card)
-    $link .= '[<a href="/card/?o=computername&v='.$computer_name.'" target="_blank">инф.</a>]';
-  else
-    $link .= getVersion($computer_name);
+    $link .= '[<a href="/card/?o=computername&v='.$computer_name.'">инф.</a>]';
   return $link;
 }
 
@@ -87,4 +92,23 @@ function modifier_plural_form($n, $form1, $form2, $form5='') {
   if ($n1 > 1 && $n1 < 5) return $form2;
   if ($n1 == 1) return $form1;
   return $form5;
+}
+function getSpTree($sp1, $sp2, $sp3) {
+  $tree = "";
+  if (!empty($sp1)) {
+    $sp = DB::singleRow("SELECT * FROM sp WHERE code=?", $sp1);
+    $tree .= '<a href="/unit/?sp='.$sp['id'].'&level=1">'.$sp['name'].'</a>';
+  }
+
+  if (!empty($sp2)) {
+    $sp = DB::singleRow("SELECT * FROM sp WHERE code=?", $sp2);
+    $tree .= ' - <a href="/unit/?sp='.$sp['id'].'&level=2">'.$sp['name'].'</a>';
+  }
+
+  if (!empty($sp3)) {
+    $sp = DB::singleRow("SELECT * FROM sp WHERE code=?", $sp3);
+    $tree .= ' - <a href="/unit/?sp='.$sp['id'].'&level=3">'.$sp['name'].'</a>';
+  }
+
+  return $tree;
 }

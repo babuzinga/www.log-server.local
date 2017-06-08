@@ -2,7 +2,7 @@
 
 $dt = date("Y-m-d");
 $limit = 30;
-echo "<br/>{$limit} активностей за ".$dt."<br/><br/>";
+echo "<br/>Топ {$limit} активностей за ".$dt."<br/><br/>";
 echo "<table><tr><td>";
 
 
