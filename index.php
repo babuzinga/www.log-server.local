@@ -43,16 +43,23 @@ ini_set("memory_limit", "-1");
     margin-bottom: 10px;
   }
   table th {
-    padding-right: 20px;
+    padding: 6px 20px 6px 0;
     text-align: left;
+    background: #ffa9a9;
   }
   table td {
     padding: 5px 30px 5px 0;
     border-top: 1px dotted black;
     vertical-align: top;
   }
+  table.computername td.c {
+    background: #ffe1e6;
+  }
+  table.account td.u {
+    background: #ffe1e6;
+  }
   a {
-    color: blue;
+    color: #c90000;
   }
   a:hover {
     text-decoration: none;
@@ -93,7 +100,7 @@ ini_set("memory_limit", "-1");
   <div class="search">
     <a href="/">Главная</a>
     &mdash; <a href="/logs/">Логи</a>
-    &mdash; Поиск: <input value="" placeholder="Фамилия или имя компьютера" type="text" id="data-search" style="width:300px">
+    &mdash; Поиск: <input value="" placeholder="Логин, фамилия или имя компьютера" type="text" id="data-search" style="width:300px">
     <div id="result-search"></div>
   </div>
 

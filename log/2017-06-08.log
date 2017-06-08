@@ -1,0 +1,731 @@
+2017-06-08; 0:01:06;872F64509-4;a_matveeva;KMS;Windows 7;x86;logon 
+2017-06-08; 0:20:32;804F66978-4;s_bylkov;KMS;Windows 7;x86;logoff 
+2017-06-08; 0:24:52;838300180-4;S_Mitrosheva;KMS;Windows 7;x64;logoff 
+2017-06-08; 0:24:54;838300180-4;T_Bragina;KMS;Windows 7;x64;logoff 
+2017-06-08; 0:26:33;872F64509-4;a_matveeva;KMS;Windows 7;x86;logoff 
+2017-06-08; 0:27:05;825000069-4;S_Mitrosheva;KMS;Windows 7;x64;logoff 
+2017-06-08; 0:27:06;825000069-4;K_Voysh;KMS;Windows 7;x64;logoff 
+2017-06-08; 0:27:30;RAPORT-1;g-Konyafiev;KMS;Windows 7;x64;logon 
+2017-06-08; 0:27:49;838300080-4;D_Egorov;KMS;Windows 7;x86;logoff 
+2017-06-08; 0:27:52;838300080-4;D_Pervin;KMS;Windows 7;x86;logoff 
+2017-06-08; 0:46:25;RAPORT-1;g-Konyafiev;KMS;Windows 7;x64;logoff 
+2017-06-08; 2:36:45;802700003-4;N_Sorgol;KMS;Windows 7;x64;logon 
+2017-06-08; 3:25:45;841200056-4;I_Gorbachev;KMS;Windows 7;x64;logoff 
+2017-06-08; 4:45:24;MSK-TS-SH01;o_solohina;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 5:15:21;MSK-TS-SH01;N_Russkikh;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 5:44:17;MSK-TS-SH03;e_popova;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 5:58:27;MSK-TS-SH01;a_mayorov;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 6:19:03;MSK-TS-SH03;d_chervyakov;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 7:02:06;803TERM03-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:05:19;803TERM03-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;802TERM07-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:02:06;802TERM06-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:02:07;803TERM02-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:11;802TERM07-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;803TERM01-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:15;802TERM06-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;803TERM04-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:20;803TERM02-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:03:18;803TERM01-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;802TERM02-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:14;803TERM04-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;802TERM05-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:02:06;802TERM04-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:02:06;802TERM10-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:02:09;0474900XD-4;a_intankin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:03:12;802TERM02-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;802TERM01-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:13;802TERM04-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:03:34;802TERM05-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:03:07;802TERM10-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:02:06;802TERM03-4;termcos;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:03:39;802F81414-4;s_simakin;KMS;Windows XP;x86;logon 
+2017-06-08; 7:03:16;802TERM01-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:04:27;811300022-4;V_Dolgopolov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:03:15;81100228-4;e_voronina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:03:19;802TERM03-4;termcos;KMS;Windows 7;x86;logon 
+2017-06-08; 7:09:06;MSK-TS-SH01;i_cherepanova;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 7:08:49;827000026-4;O_Devyatkina;KMS;Windows XP;x86;logon 
+2017-06-08; 7:13:33;802025809-4;y_sokovikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:23:47;810595805-4;N_Simakina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:26:49;8024106JB-4;O_Savchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:29:14;850100072-4;e_zareckaya;KMS;Windows 7;x64;logon 
+2017-06-08; 7:30:15;825F69362-4;A_Zaglada;KMS;Windows 7;x64;logon 
+2017-06-08; 7:30:21;802F67554-4;v_belikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:31:04;817000062-4;n_bilyuk;kms;Windows XP;x86;logon 
+2017-06-08; 7:31:26;869002419-4;a_ovchinnikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:32:44;803700359-4;A_Makarova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:33:01;835100053-4;a_oreshak;KMS;Windows 7;x64;logon 
+2017-06-08; 7:33:54;804317907-4;E_Sukhorukov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:34:25;802F66732-4;a_krym;KMS;Windows 7;x64;logon 
+2017-06-08; 7:35:48;810F66404G-4;k_roschin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:38:27;850F83738-4;e_sobko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:36:16;850001410-4;I_berezin;KMS;Windows 7;x86;logon 
+2017-06-08; 7:36:50;803002732-4;n_krylova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:36:33;804317906-4;g_dermanovskiy;KMS;Windows XP;x86;logon 
+2017-06-08; 7:37:09;844001176-4;Y_gorelov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:37:28;804100179-4;a_maslykov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:37:45;802001852-4;g_beregovenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:37:52;803C80344-4;E_kurzin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:38:01;802000014-4;K_Tsygankov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:38:26;841500179-4;a_makarov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:38:32;802F70042-4;e_adaikin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:38:15;802F85731-4;e_abramovich;KMS;Windows 7;x64;logon 
+2017-06-08; 7:39:14;804100096-4;P_Parfenov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:39:40;825100083-4;O_Shcherbakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:39:58;802F63820-4;t_kosicina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:40:05;802000033-4;R_Myasnikov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:40:48;835298507-4;e_naumova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:40:25;803000048-4;e_smirnova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:40:51;835C8028O-4;tat_ivanova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:40:53;824000799-4;a_fayzullina;KMS;Windows XP;x86;logon 
+2017-06-08; 7:41:02;815C80289-4;O_Kichigina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:41:07;802200046-4;N_Russkikh;KMS;Windows 7;x64;logon 
+2017-06-08; 7:41:25;815500030-4;o_andriyanova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:40:56;804F70519-4;r_bisik;KMS;Windows XP;x86;logon 
+2017-06-08; 7:41:34;841100027-4;S_Lomachenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:41:42;825F81401-4;n_burakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:41:48;860F78425-4;L_Shcherbin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:41:55;802001839-4;v_filippova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:22;816150936-4;yu_rogov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:14;812C80288-4;N_Markova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:14;802002532-4;m_kalishenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:17;802F84734-4;o_kalio;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:16;807300009-4;e_kharlamova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:54;803F70041-4;I_Verhoturov;KMS;Windows XP;x64;logon 
+2017-06-08; 7:43:13;811F87556-4;i_dymyanenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:42:50;803F4508-4;a_cherdyncev;KMS;Windows 7;x86;logon 
+2017-06-08; 7:42:53;850F83073-4;e_zverev;KMS;Windows 7;x86;logon 
+2017-06-08; 7:43:07;850F83093-4;I_Shatkov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:45:08;813000071-4;A_Kolbina;KMS;Windows XP;x86;logon 
+2017-06-08; 7:43:39;803025802-4;v_maz;KMS;Windows 7;x64;logon 
+2017-06-08; 7:43:40;802002592-4;D_gubarenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:43:45;803F74065-4;V_Valkov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:43:47;844F64502-4;n_levin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:43:44;8034106K7-4;I_Gogoleva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:43:49;802C80462-4;r_kotelnikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:43:57;825PL0050-4;N_Gerashchenko;KMS;;x86;logon 
+2017-06-08; 7:43:58;810F57673-4;A_berlikova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:11;805300024-4;n_sobolev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:03;802F82595-4;a_lipina;KMS;Windows XP;x64;logon 
+2017-06-08; 7:44:16;TERM-KMS-1;yu_tkachenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:16;803141405-4;p_kashirskiy;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:50;827F78675-4;a_smolko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:37;802002664-4;a_shevchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:53;802F80006-4;A_Dyachkov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:55;805700041-4;Y_Katrich;KMS;Windows 7;x64;logon 
+2017-06-08; 7:44:59;834C80267-4;t_nikolaeva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:45:01;811F84699-4;vb_novikov;KMS;Windows XP;x64;logon 
+2017-06-08; 8:44:12;804F74038-4;s_frolov;KMS;Windows XP;x64;logon 
+2017-06-08; 7:45:14;803173802-4;a_sarapulov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:45:17;843F74059-4;o_selina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:45:28;829002731-4;S_Mashkovceva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:45:28;802900205-4;e_timakova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:45:34;811000079-4;a_ustinov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:45:36;803F86424-4;v_chernishenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:45:36;804002743-4;A_Vlasov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:45:51;804000016-4;A_Borovoi;KMS;Windows 7;x64;logon 
+2017-06-08; 7:46:02;802009094-4;e_tretyakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:46:15;830F69345-4;n_lokteva;KMS;Windows 7;x86;logon 
+2017-06-08; 8:46:29;802A15181-4;E_Ushakova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:46:37;810F66406-4;M_Peters;KMS;Windows XP;x64;logon 
+2017-06-08; 7:46:35;803F83095-4;e_holkina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:46:44;803001406-4;s_mitin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:46:48;802300174-4;I_Dvoryanov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:46:52;802F74039-4;e_lovkogol;KMS;Windows 7;x64;logon 
+2017-06-08; 8:47:00;804000945-4;I_Kvachuk;KMS;Windows XP;x86;logon 
+2017-06-08; 7:46:53;811F62591-4;A_Hrebina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:47:06;802A00016-4;O_Vikhlyaeva;KMS;Windows XP;x86;logon 
+2017-06-08; 7:47:12;825000020-4;A_Nazarova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:47:19;802000166-4;I_khairulin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:47:31;817002471-4;m_maneeva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:45:56;813F82328;o_korolkov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:47:51;810F65619-4;a_molochnyy;KMS;Windows XP;x64;logon 
+2017-06-08; 7:47:36;829300070-4;a_vdovenkov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:47:29;827000024-4;e_belousova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:48:06;830F57675-4;A_Karaguzova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:47:40;802000012-4;I_Devjatkin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:48:07;802F74879-4;S_Kolotuhin;KMS;Windows 7;x86;logon 
+2017-06-08; 8:48:26;802000044-4;a_popova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:48:21;047F74036-4;m_shumilova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:48:23;840C80455-4;A_Bochko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:48:26;802001236-4;N_mishun;KMS;Windows 7;x86;logon 
+2017-06-08; 7:48:28;843F52697-4;a_sisa;KMS;Windows 7;x64;logon 
+2017-06-08; 7:48:38;803045194-4;v_koval;KMS;Windows 7;x64;logon 
+2017-06-08; 7:48:57;802A15202-4;L_Popova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:52:37;810F82251-4;V_Pitsyk;KMS;Windows XP;x64;logon 
+2017-06-08; 7:48:53;826F66953-4;D_Dobrovolskiy;KMS;Windows 7;x86;logon 
+2017-06-08; 7:49:01;803001414-4;N_Soshnikova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:48:58;807F69342-4;v_loseva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:15;830600044-4;S_Nikolaenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:49:11;047C81144-4;A_Amplitov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:12;802300179-4;a_tyuneeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:24;803000048-4;e_smirnova;KMS;Windows 7;x86;logoff 
+2017-06-08; 7:48:41;802002242-4;O_VDOVIK;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:29;802020703-4;E_Slakva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:35;047F59593-4;y_bormotov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:40;830500247-4;i_zimina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:49:41;803F86423-4;n_malahaev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:14;840000060-4;P_Melnik;KMS;Windows 7;x86;logon 
+2017-06-08; 7:49:52;047245607-4;A_Kalkaev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:55;802002611-4;i_trubikhina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:49:52;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:49:56;802F63822-4;Y_Vereshchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:04;843F63847-4;s_trofimova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:06;830000068-4;nv_koroleva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:50:07;047200073-4;t_yuhanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:07;841C80443-4;e_gorbachev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:11;802F66739-4;m_murzin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:14;825F67559-4;n_soroka;KMS;Windows 7;x86;logon 
+2017-06-08; 7:50:10;825F80382-4;e_tarasenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:14;841F57507-4;K_Ievlev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:31;841C80463-4;n_deptsova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:16;822000852G-4;G_kozmina;KMS;Windows XP;x64;logon 
+2017-06-08; 7:50:39;841F70032-4;a_gnatik;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:44;047C80337-4;r_goncharov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:26;047000063-4;O_Kazarova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:45;811C80325-4;N_Golyudova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:50;802045194-4;M_Riabtseva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:55;802F74037-4;O_Dmitriyenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:54;802000824-4;v_scherbakov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:59;803300313-4;t_matei;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:02;811000075-4;A_Shipkova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:50:52;827F78710-4;t_bocharova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:51:05;803F84732-4;v_smirnov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:11;822F53404-4;K_Polukhina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:51:10;813000013-4;i_reznichenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:51:48;843000066-4;N_Khovboshchenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:51:13;047000072-4;m_nezhiva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:20;844F86489-4;S_Orlov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:20;807F57508-4;O_Bulycheva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:22;811F85743-4;E_Shaymardanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:21;80417908O-4;i_karpekin;KMS;Windows XP;x86;logon 
+2017-06-08; 7:51:41;807C80893-4;S_Golovkina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:31;802700003-4;N_Sorgol;KMS;Windows 7;x64;logoff 
+2017-06-08; 7:51:32;802700003-4;M_Rakov;KMS;Windows 7;x64;logoff 
+2017-06-08; 7:52:21;047500017-4;b_zhukov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:40;802000081-4;l_mayukova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:51:45;825F69347-4;s_kruchak;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:50;860F78459-4;s_kurbakov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:51:28;802F86488-4;i_cherepanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:05;829F66727-4;a_malanicheva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:51;812001825-4;K_Sadeeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:54;803C80461-4;V_Komarova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:55;808000027-4;N_Cherednichenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:58;802F81416-4;a_vorontcob;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:00;825300091-4;S_podoynitsina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:52:07;802C00290-4;o_likova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:44;047245703-4;v_moroz;KMS;Windows XP;x64;logon 
+2017-06-08; 7:52:08;802F83091-4;m_moiseenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:03;835490603-4;n_egorova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:15;802600710-4;G_Serikova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:17;834600007-4;ju_gilmanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:17;804002737-4;v_yushenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:51:33;802C80268-4;A_Tverdostup;KMS;Windows 7;x86;logon 
+2017-06-08; 7:52:37;829F63407-4;D_filippov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:52:32;843F74066-4;t_kuzmina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:36;805500011-4;D_Orlov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:52:39;860F82597-4;infodba;KMS;Windows XP;x64;logon 
+2017-06-08; 7:52:42;802300026-4;M_Artazey;KMS;Windows 7;x64;logon 
+2017-06-08; 8:52:46;841F80014O-4;a_sapegin;KMS;Windows XP;x86;logon 
+2017-06-08; 7:52:52;840F66995-4;M_Vokun;KMS;Windows XP;x86;logon 
+2017-06-08; 7:52:51;807F66722-4;k_shibakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:55;807F80147-4;A_Ryleeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:18;811700268-4;V_Gusev;KMS;Windows 7;x86;logon 
+2017-06-08; 7:53:00;802500143-4;o_shpilevaya;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:37;829002730-4;d_chervyakov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:42;830C80937-4;s_minaeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:52:54;805000511-4;N_Sayapina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:15;806C81145-4;M_Kamenev;KMS;Windows XP;x64;logon 
+2017-06-08; 7:53:12;807F80175O-4;o_Kozlova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:18;807F78674-4;L_Ten;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:14;803F83087-4;S_Kornev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:19;802002600-4;N_Ivanova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:53:32;811276003-4;e_aliev;KMS;Windows XP;x64;logon 
+2017-06-08; 7:53:31;802F83091-4;d_kholod;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:43;850F80010-4;S_Rudenko;KMS;Windows XP;x86;logon 
+2017-06-08; 7:53:54;803141203-4;p_komisaraites;KMS;Windows 7;x86;logon 
+2017-06-08; 7:53:55;802F66402-4;e_bushueva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:53:36;844000002-4;a_mikheev;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:10;827000028-4;o_shorohova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:15;811840066-4;a_drozdova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:16;829F63850-4;A_Semyonova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:59;839700384-4;V_Zolototrubov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:55:30;843F64505-4;DI_Semenov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:54:35;839002614-4;r_dovgalev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:25;807645110-4;y_zvereva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:25;802F80008-4;D_Mitskevich;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:23;870002612-4;n_popov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:30;804F86482-4;M_Bilmovich;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:29;825001146-4;t_ivanova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:34;802200045-4;R_Krinochkin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:39;827000944-4;o_shumanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:34;843F53629-4;D_Gubchenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:38;860C80464-4;s_kurbakov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:54:26;811F53627-4;P_Putintsev;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:51;824000800O-4;V_Danilov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:54:23;835233101-4;a_sukhov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:54:56;802F81329-4;a_smishko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:25;829F53405-4;v_evseeva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:54:23;850F81413-4;y_zhabarova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:55:04;802C80335-4;a_pyanikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:16;840F74878-4;e_ryaschenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:08;82502685-4;a_zhidkova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:39;840157235-4;A_Kravetc;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:10;802F86472-4;m_shalavin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:12;829002560-4;M_Kariyattil;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:14;802300288-4;d_ozhereliev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:22;825F63844-4;o_sergienko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:21;849000047-4;S_Shevchuk;KMS;Windows XP;x86;logon 
+2017-06-08; 7:55:32;810C80460-4;V_Salimov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:31;803000030-4;A_Voroncova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:36;837025811-4;d_udalov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:46;802318109-4;K_Naydenov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:45;807645003-4;v_arzhakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:46;807C80456-4;n_golovkova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:50;802F86418-4;e_nastenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:07;839900480-4;O_Kurkaeva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:57;825C80283-4;P_Kvon;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:57;837000792-4;V_Shchebenykova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:55:59;825F67574-4;e_shpeneva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:55:59;850300057-4;e_kucherenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:56:04;826700377-4;y_kazakova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:06;827000040-4;a_van;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:09;850F66956-4;v_kopylova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:10;802002283-4;a_bulygin;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:12;841F82594-4;D_Chirva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:15;807F86480-4;o_zheleznova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:16;803001857-4;a_grigorev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:11;829C80934-4;I_kovalenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:32;843F70045-4;v_shibaev;KMS;Windows XP;x64;logon 
+2017-06-08; 7:56:26;802000003-4;K_Orlov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:32;843F69351-4;T_zeybel;KMS;Windows 7;x86;logon 
+2017-06-08; 7:56:32;829900031-4;N_Trubacheva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:39;804317905-4;Y_pylaeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:41;802317911-4;M_Marunich;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:33;826700339-4;I_Starodubova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:45;802001884-4;o_maltsceva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:56:54;840C80469-4;I_Statsenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:24;829F83809-4;a_burdakova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:56:58;802100538-4;A_Shaforostov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:01;849002547-4;E_Sevruk;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:01;838002206-4;aa_shtyrenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:09;829F82329-4;E_Roudneva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:11;841F81409-4;A_Belikov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:15;825000003-4;E_Romashina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:20;802F82254-4;v_katovalova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:37;802F63841-4;S_Soloviyeva;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:33;836000031-4;I_Aksyonova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:31;802000086-4;y_leus;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:29;802000823-4;A_Starostenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:36;802F78428-4;e_tergusheva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:45;804F66719-4;y_vyatkin;KMS;Windows XP;x86;logon 
+2017-06-08; 7:57:42;802002617-4;v_podgaiko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:44;047000064-4;N_Platonova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:43;804F70037-4;a_averenkov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:45;802002691-4;A_Popruzhnaya;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:55;850001404-4;i_lighter;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:59;822300006-4;k_tishkova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:57:58;803F70035-4;m_mazur;KMS;Windows 7;x64;logon 
+2017-06-08; 7:57:59;804100333-4;L_Bashlykova;KMS;Windows XP;x86;logon 
+2017-06-08; 7:57:55;827000029-4;n_gaidaenko;KMS;Windows 7;x86;logon 
+2017-06-08; 7:58:00;829000130-4;o_efremenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:14;801F66951-4;E_Lebedeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:35;841001171-4;a_rubinchik;KMS;Windows XP;x86;logon 
+2017-06-08; 7:58:26;838100018-4;K_Goptareva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:26;804317907-4;Y_Zhuravlev;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:30;802C80311-4;I_Zharnikova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:41;804F69358-4;t_melchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:11;807002276-4;v_fishenko;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:46;827000023-4;i_osipova;KMS;Windows 7;x86;logon 
+2017-06-08; 7:58:49;825000067-4;v_makeeva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:51;824000941-4;I_evdokimov;KMS;Windows XP;x86;logon 
+2017-06-08; 7:58:52;802000825-4;Y_Usenkova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:54;841002740-4;d_kachan;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:58;804318107-4;v_kovtun;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:00;826C81056-4;T_Kasyanova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:20;807001940-4;M_Gavrish;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:05;841000008-4;V_spitcin;KMS;Windows 7;x86;logon 
+2017-06-08; 7:59:13;802F81405-4;k_ivarovsky;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:13;803C80448-4;a_lomovceva;KMS;Windows 7;x64;logon 
+2017-06-08; 7:58:58;802C80938-4;E_Vdovik;KMS;Windows 7;x86;logon 
+2017-06-08; 7:59:25;829002739-4;i_petrova;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:37;802024126-4;n_scherbinina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:38;803962584-4;v_voronina;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:40;84310073-4;d_ermakov;KMS;Windows 7;x86;logon 
+2017-06-08; 7:59:44;811C81146-4;E_Bocharov;KMS;Windows 7;x64;logon 
+2017-06-08; 7:59:18;829C80935-4;V_Saigushkina;KMS;Windows XP;x86;logon 
+2017-06-08; 7:59:54;804500081-4;S_Nikitin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:01;829F66720-4;o_solohina;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:03;803208703-4;n_nazarova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:17;8046E2000;n_vasilchenko;KMS;Windows XP;x86;logon 
+2017-06-08; 8:00:17;810C80466-4;V_Rachev;KMS;Windows 7;x86;logon 
+2017-06-08; 8:00:13;807F8147-4;O_Komkova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:18;829000013-4;m_baratashvili;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:18;829000032-4;E_Shilova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:00:17;803281701-4;n_kolchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:26;816000127-4;r_danilov;KMS;Windows 7;x86;logon 
+2017-06-08; 8:00:26;810100516-4;s_pilipenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:31;802F69368-4;a_fokina;KMS;Windows 7;x86;logon 
+2017-06-08; 7:58:51;802021602-4;v_samoilov;KMS;Windows XP;x64;logon 
+2017-06-08; 8:00:32;825700250-4;E_Mansurova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:11;824C80291-4;E_Frolova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:00:42;825F64506-4;n_belozyorova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:43;80420009O-4;o_cvetkov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:48;802F78423-4;g_scherbinina;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:52;829002728-4;Ya_Lapin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:54;811F67571-4;T_kibireva;KMS;Windows 7;x86;logon 
+2017-06-08; 8:00:52;829F84733-4;k_ohrimenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:00:58;803001403-4;m_rakov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:00;841000595G-4;E_Shmakova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:04;804600020-4;m_shokal;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:10;860F80573-4;a_kvashenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:13;805001179-4;s_petukhova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:01:17;803001654-4;v_gabova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:16;802002666-4;i_manilenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:20;854F81787-4;y_zolotceva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:22;802F64503-4;o_poroshin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:22;838001175-4;a_ostanin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:52;802200095-4;N_Vetoradziy;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:05;827000025-4;Y_Kazachenok;KMS;Windows 7;x86;logon 
+2017-06-08; 8:01:54;807C80453-4;v_geiker;KMS;Windows 7;x64;logon 
+2017-06-08; 8:01:56;841F74886-4;N_Mikhailova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:06:58;826C80279-4;aa_smirnov;KMS;Windows XP;x86;logon 
+2017-06-08; 8:02:06;829000039-4;a_biryukov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:02:10;811000951-4;E_Enaki;KMS;Windows 7;x64;logon 
+2017-06-08; 8:02:20;802C80319-4;s_domnich;KMS;Windows 7;x86;logon 
+2017-06-08; 8:02:25;840F74041-4;L_Drobysheva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:02:47;802001405-4;y_belyavskaya;KMS;Windows 7;x64;logon 
+2017-06-08; 8:02:56;802LS007-4;A_Popruzhny;KMS;;x86;logon 
+2017-06-08; 8:03:02;802F83086-4;e_kazachenko;KMS;Windows XP;x86;logon 
+2017-06-08; 8:03:08;802C80473-4;A_Avksentev;KMS;Windows 7;x86;logon 
+2017-06-08; 8:03:12;802F57676-4;d_kozmenyh;KMS;Windows 7;x86;logon 
+2017-06-08; 8:03:15;838F57506-4;p_serdyuk;KMS;Windows 7;x64;logon 
+2017-06-08; 8:03:30;838300080-4;D_Pervin;KMS;Windows 7;x86;logon 
+2017-06-08; 8:03:33;802F69354-4;L_Filatyeva;KMS;Windows 7;x86;logon 
+2017-06-08; 8:03:30;824000952-4;R_Andreev;KMS;Windows XP;x86;logon 
+2017-06-08; 8:03:32;MSK-TS-SH01;i_cherepanova;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 8:03:41;810C80470-4;e_pisotskaya;KMS;Windows XP;x86;logon 
+2017-06-08; 8:03:38;MSK-TS-SH01;n_egorova;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 8:03:42;829000022-4;I_Semenov;KMS;Windows XP;x86;logon 
+2017-06-08; 8:03:46;843600035-4;A_Fedorova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:03:47;838300180-4;T_Bragina;KMS;Windows 7;x64;logon 
+2017-06-08; 9:02:45;811F84698-4;P_Starih;KMS;Windows XP;x64;logon 
+2017-06-08; 8:04:01;838001666-4;N_Khomyakova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:04;838300048-4;e_taldykina;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:04;841F81758-4;A_Isaeva;KMS;Windows XP;x86;logon 
+2017-06-08; 8:04:10;841F53622-4;d_turgenev;KMS;Windows 7;x86;logon 
+2017-06-08; 8:04:17;825000069-4;K_Voysh;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:19;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logoff 
+2017-06-08; 8:04:22;873002742-4;aa_shtyrenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:23;860F57677-4;i_miroshnichenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:25;825000021-4;AV_Pavlova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:05;810F70435-4;V_Gasanova;KMS;Windows XP;x64;logon 
+2017-06-08; 8:04:38;864000504-4;a_nadeev;KMS;Windows 7;x64;logon 
+2017-06-08; 8:04:43;825PL0044-4;e_bahmetova;KMS;;x86;logon 
+2017-06-08; 8:04:50;802F82259-4;m_yushko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:00;830F74067-4;n_chesnokova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:05:02;829002744-4;i_sannikova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:04;825F78709-4;T_Malkova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:13;8034106JJ-4;N_Podoba;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:12;838300088-4;n_belkin;KMS;Windows 7;x86;logon 
+2017-06-08; 8:05:22;803000011-4;a_kutasov;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:05:33;824000798-4;e_ermakova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:05:30;803141503-4;A_polyakova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:05:33;811F69341-4;n_maturina;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:56;810500094G-4;a_nogovicin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:57;808592001-4;a_shtyrenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:05:58;803001416-4;L_barkunova;KMS;Windows 7;x64;logon 
+2017-06-08; 9:07:37;802F84134-4;m_kulagina;KMS;Windows XP;x86;logon 
+2017-06-08; 8:06:10;840F69353-4;E_Kozlova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:06:13;825PL0045-4;M_Kupriyanova;KMS;;x86;logon 
+2017-06-08; 8:06:22;807000332-4;l_drobinskaya;KMS;Windows 7;x64;logon 
+2017-06-08; 8:06:15;843700353-4;T_Kozlova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:06:27;825PL0078-4;S_Belik;KMS;;x86;logon 
+2017-06-08; 8:06:24;836000046-4;a_reshetnikova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:06:20;804F81408-4;T_Roganova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:07:02;803500229-4;A_Shchukin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:06:49;827F66734-4;e_terekhova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:07:12;872F64509-4;v_semenushkina;KMS;Windows 7;x86;logon 
+2017-06-08; 8:07:12;168F86485-4;Y_Gudym;KMS;Windows 7;x64;logon 
+2017-06-08; 8:07:14;803002519-4;k_prazdnichnih;KMS;Windows 7;x64;logon 
+2017-06-08; 8:07:17;810F82589-4;A_Kuklin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:07:28;829002735-4;a_mayorov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:19;81183803-4;a_kapturevskiy;KMS;Windows XP;x86;logon 
+2017-06-08; 8:08:49;807F80007-4;E_Mandrikova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:08:26;804200107-4;i_valova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:08:49;802009495-4;l_hudotyoplova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:07:11;829000036-4;a_novikova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:09:08;802002597-4;A_Shamahanova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:13;802002158-4;A_Romanova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:34;807020704-4;y_makarchuk;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:35;824F69352O-4;RY_Novikov;KMS;Windows XP;x86;logon 
+2017-06-08; 8:09:39;810F800031G-4;a_molochnyy;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:44;838002206-4;E_morozov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:46;802F83804-4;Yu_Gilmanova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:52;810040365-4;d_pashin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:58;803962584-4;O_Kirillova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:59;830C80444-4;m_lebedeva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:09:18;810F690366-4;S_gouzenko;KMS;Windows XP;x86;logon 
+2017-06-08; 8:10:04;MSK-TS-SH01;I_Evdokimov;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 8:10:12;836000046-4;a_reshetnikova;KMS;Windows XP;x86;logoff 
+2017-06-08; 8:10:37;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:10:40;825PL0052-4;v_voronina;KMS;;x86;logon 
+2017-06-08; 9:11:11;841F80018-4;o_franchuk;KMS;Windows XP;x86;logon 
+2017-06-08; 8:10:59;810023049-4;A_Kilfin;KMS;Windows 7;x64;logon 
+2017-06-08; 9:11:32;802200042-4;e_zaharov;KMS;Windows XP;x86;logon 
+2017-06-08; 8:11:44;804500205-4;a_zubov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:12:02;851F80011-4;E_Kukleva;KMS;Windows 7;x86;logon 
+2017-06-08; 8:12:20;802000084-4;o_nazarenko;KMS;Windows XP;x86;logon 
+2017-06-08; 8:12:42;825F69361-4;v_chokova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:12:27;854001148-4;v_savicheva;KMS;Windows XP;x86;logon 
+2017-06-08; 8:12:47;841807180-4;a_lonskiy;KMS;Windows 7;x86;logon 
+2017-06-08; 8:12:51;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logoff 
+2017-06-08; 8:13:03;825002187-4;S_yusupova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:13:03;810F82252-4;s_melanich;KMS;Windows 7;x64;logon 
+2017-06-08; 8:13:27;825000074-4;o_bondar;KMS;Windows 7;x64;logon 
+2017-06-08; 8:13:28;810F690366-4;S_gouzenko;KMS;Windows XP;x86;logoff 
+2017-06-08; 8:13:57;825F83085-4;e_pogodaeva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:14:08;804F86483-4;O_Gorchakova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:14:12;813000079-4;N_lysenok;KMS;Windows 7;x64;logon 
+2017-06-08; 8:14:36;802300085-4;s_tkachenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:15:02;841F83801-4;A_Smerdina;KMS;Windows XP;x86;logon 
+2017-06-08; 8:15:16;838000009-4;a_omelchuk;KMS;Windows 7;x64;logon 
+2017-06-08; 8:15:23;04700077-4;S_Belousova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:15:31;815F53623-4;v_neznamova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:15:41;80200004C-4;Yu_Nazarova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:16:07;838300216-4;Y_Loukyanova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:16:19;824F87556-4;a_polyakov;KMS;Windows 7;x86;logon 
+2017-06-08; 8:17:12;810F82592-4;V_Kuznetsov;KMS;Windows XP;x64;logon 
+2017-06-08; 8:17:02;803F57494-4;K_Vasilieva;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:18:27;854001147-4;u_boganova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:17:24;835F53621-4;a_gainutdinov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:17:33;810F80033-4;A_Shimf;KMS;Windows 7;x64;logon 
+2017-06-08; 9:20:50;811001668-4;S_Novikov;KMS;Windows XP;x64;logon 
+2017-06-08; 8:18:25;810F80033-4;A_Shimf;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:18:43;840F57674-4;a_gavrilova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:18:52;825PL0041-4;K_Yakimchuk;KMS;;x86;logon 
+2017-06-08; 8:19:04;802F53620-4;v_kotelnikov;KMS;Windows 7;x86;logon 
+2017-06-08; 8:19:31;808700308-4;a_livirina;KMS;Windows 7;x86;logon 
+2017-06-08; 8:19:47;811C50456-4;a_nasonov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:19:53;802248106-4;P_Bulaeva;KMS;Windows 7;x86;logon 
+2017-06-08; 8:20:06;810000573-4;L_Lavrentyeva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:20:55;802594704-4;A_Anohin;KMS;Windows 7;x86;logon 
+2017-06-08; 8:21:42;802F82248-4;a_kaleev;KMS;Windows XP;x64;logon 
+2017-06-08; 8:20:54;MSK-TS-SH03;i_petrova;KMS;Windows Server 2012;x64;logoff 
+2017-06-08; 8:21:36;810F80033-4;A_Shimf;KMS;Windows 7;x64;logon 
+2017-06-08; 8:22:05;813000079-4;N_lysenok;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:22:26;810F63845-4;NY_Kuznetsova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:22:45;810C80467-4;g_lobanova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:22:55;802C80327-4;m_maslova;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:22:38;825000070-4;o_doulepina;KMS;Windows XP;x86;logon 
+2017-06-08; 8:23:11;803595801-4;s_kalashnikov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:23:26;825F63844-4;o_sergienko;KMS;Windows 7;x86;logoff 
+2017-06-08; 8:23:33;841F80002O-4;m_yushko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:23:44;825F86476-4;S_Tasenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:25:17;810300092-4;l_gorovaya;KMS;Windows 7;x64;logon 
+2017-06-08; 8:24:30;803000011-4;a_kutasov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:24:32;807000065-4;L_odintsova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:24:35;047000078-4;E_Tereshchenkova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:24:35;825000633-4;t_zgurskaya;KMS;Windows 7;x64;logon 
+2017-06-08; 8:25:18;803173801-4;n_kolchenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:26:28;829F82470-4;K_satsouk;KMS;Windows 7;x64;logon 
+2017-06-08; 8:26:42;807001174-4;N_Vdovenkova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:27:49;810152409-4;O_Aprelkov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:28:05;810300005G-4;e_zavizion;KMS;Windows XP;x64;logoff 
+2017-06-08; 8:28:26;810300005G-4;e_zavizion;KMS;Windows XP;x64;logon 
+2017-06-08; 8:29:53;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:32:07;837F675570-4;a_demysheva;KMS;Windows 7;x64;logon 
+2017-06-08; 8:32:40;801SONYVAVIO-4;d_bloschinskiy;KMS;Windows 7;x64;logon 
+2017-06-08; 8:32:59;802F86426-4;T_stefanovskaja;KMS;Windows 7;x64;logon 
+2017-06-08; 8:33:12;802009517-4;i_nakashidze;KMS;Windows 7;x64;logon 
+2017-06-08; 8:34:04;82200622-4;e_mikhailova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:34:32;830F74043O-4;T_Tsykunova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:34:47;047300294-4;v_solovyova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:35:04;802F63849-4;Y_Sedykh;KMS;Windows 7;x86;logon 
+2017-06-08; 8:35:19;816F74877-4;y_ermakov;KMS;Windows 7;x86;logon 
+2017-06-08; 8:35:32;841F81402-4;e_bezdenezhnyh;KMS;Windows 7;x86;logon 
+2017-06-08; 8:35:44;802C80447-4;a_kibirev;KMS;Windows 7;x64;logon 
+2017-06-08; 8:36:58;047300294-4;v_solovyova;KMS;Windows 7;x86;logoff 
+2017-06-08; 8:37:53;014002572-4;A_Shaluev;KMS;Windows 7;x64;logon 
+2017-06-08; 8:38:00;822F67573-4;t_butakova;KMS;Windows XP;x86;logoff 
+2017-06-08; 8:39:32;872F64509-4;M_Kupriyanova;KMS;Windows 7;x86;logon 
+2017-06-08; 8:39:42;817300016-4;n_garin;KMS;Windows 7;x64;logon 
+2017-06-08; 8:40:07;04700077-4;S_Belousova;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:40:12;841F81788-4;a_sanzarov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:40:20;MSK-TS-SH03;d_chervyakov;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 8:40:23;803F70041-4;I_Verhoturov;KMS;Windows XP;x64;logoff 
+2017-06-08; 8:40:54;813000079-4;s_gouzenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:41:50;04700077-4;S_Belousova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:42:04;838F81794-4;g_zhidkov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:44:05;813F18108-4;N_Lysenok;KMS;Windows 7;x64;logon 
+2017-06-08; 8:44:07;802000074-4;o_luparyova;KMS;Windows 7;x64;logon 
+2017-06-08; 8:44:13;825300166-4;n_mitroshina;KMS;Windows 7;x86;logon 
+2017-06-08; 8:45:30;802000043-4;an_efremov;KMS;Windows XP;x86;logon 
+2017-06-08; 8:46:09;802002605-4;o_bloshitsina;KMS;Windows 7;x64;logon 
+2017-06-08; 8:45:52;822F67573-4;t_butakova;KMS;Windows XP;x86;logon 
+2017-06-08; 8:49:25;813F18108-4;N_Lysenok;KMS;Windows 7;x64;logon 
+2017-06-08; 8:50:19;014002572-4;a_shaluev;KMS;Windows 7;x64;logon 
+2017-06-08; 8:50:22;825002187-4;i_martusevich;KMS;Windows 7;x86;logon 
+2017-06-08; 8:52:08;810300005G-4;e_zavizion;KMS;Windows XP;x64;logon 
+2017-06-08; 9:52:41;KMS-LA;L_Shcherbin;KMS;Windows 7;x64;logon 
+2017-06-08; 9:53:51;KMS-LA;L_Shcherbin;KMS;Windows 7;x64;logoff 
+2017-06-08; 8:53:56;810318105-4;a_melkozerov;KMS;Windows 7;x64;logon 
+2017-06-08; 8:53:54;802F83079-4;e_popov;KMS;Windows 7;x86;logon 
+2017-06-08; 8:54:38;810600150-4;i_miroshnichenko;KMS;Windows 7;x64;logon 
+2017-06-08; 8:53:17;802F83084-4;M_Peretolchina;KMS;Windows XP;x86;logon 
+2017-06-08; 8:58:37;803C80318-4;ML_Antonenko;KMS;Windows 7;x64;logon 
+2017-06-08; 9:00:16;802002539-4;A_Smolyanko;KMS;Windows 7;x64;logon 
+2017-06-08; 9:01:52;810600150-4;i_miroshnichenko;KMS;Windows 7;x64;logoff 
+2017-06-08; 9:02:15;873002742-4;vv_dolgopolov;KMS;Windows 7;x64;logon 
+2017-06-08; 9:03:11;802F82249-4;s_uchaykin;KMS;Windows XP;x64;logoff 
+2017-06-08; 9:04:00;802F81417-4;G_Povetev;KMS;Windows 7;x64;logoff 
+2017-06-08; 9:04:59;803281701-4;n_kolchenko;KMS;Windows 7;x64;logoff 
+2017-06-08; 9:05:38;803281701-4;s_kurbakov;KMS;Windows 7;x64;logon 
+2017-06-08; 9:10:46;802F82249-4;s_uchaykin;KMS;Windows XP;x64;logon 
+2017-06-08; 9:07:12;810600150-4;E_Filatova;KMS;Windows 7;x64;logon 
+2017-06-08; 9:07:18;803F70041-4;D_kholod;KMS;Windows XP;x64;logon 
+2017-06-08; 9:07:27;168F86481-4;E_Bukhankov;KMS;Windows 7;x64;logon 
+2017-06-08; 9:07:41;825PL0078-4;S_Belik;KMS;;x86;logoff 
+2017-06-08; 9:07:48;840F57511-4;M_Molokova;KMS;Windows 7;x64;logon 
+2017-06-08; 9:08:14;802002690-4;AS_Petrenko;KMS;Windows 7;x64;logon 
+2017-06-08; 9:08:35;804C80459-4;a_kosicina;KMS;Windows XP;x86;logon 
+2017-06-08; 9:08:32;811000007-4;G_Marchenko;KMS;Windows 7;x86;logon 
+2017-06-08; 9:11:56;802001038-4;s_samobrod;KMS;Windows 7;x64;logon 
+2017-06-08; 9:14:13;817C81054-4;m_averenkov;KMS;Windows 7;x64;logon 
+2017-06-08;10:15:48;811F84699-4;vb_novikov;KMS;Windows XP;x64;logoff 
+2017-06-08; 9:18:00;816000030-4;v_chesnokov;KMS;Windows 7;x86;logon 
+2017-06-08;10:19:22;811F84699-4;vb_novikov;KMS;Windows XP;x64;logon 
+2017-06-08; 9:20:52;816900095-4;e_shlomov;KMS;Windows 7;x86;logon 
+2017-06-08; 9:21:59;802275905-4;A_shuvaev;KMS;Windows 7;x64;logon 
+2017-06-08; 9:22:04;803173802-4;A_Sorokina;KMS;Windows 7;x64;logon 
+2017-06-08; 2:22:15;MSK-ERP-TS;o_andriyanova;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 2:23:42;MSK-ERP-TS;v_fishenko;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 9:24:36;803173802-4;D_kholod;KMS;Windows 7;x64;logon 
+2017-06-08; 9:25:26;825F69361-4;v_chokova;KMS;Windows XP;x86;logoff 
+2017-06-08;10:26:31;811F84699-4;vb_novikov;KMS;Windows XP;x64;logoff 
+2017-06-08; 9:28:09;825PL0078-4;S_Belik;KMS;;x86;logon 
+2017-06-08; 9:28:28;0474902PK-4;V_Savich;KMS;Windows 7;x64;logon 
+2017-06-08;10:29:21;811F84699-4;vb_novikov;KMS;Windows XP;x64;logon 
+2017-06-08; 9:36:28;825800256-4;a_biryukov;KMS;Windows 7;x86;logon 
+2017-06-08; 9:37:29;829F66725-4;I_Aksyonova;KMS;Windows XP;x86;logoff 
+2017-06-08; 9:38:36;825F83735-4;t_malkova;KMS;Windows XP;x86;logon 
+2017-06-08; 9:42:10;825300166-4;S_yusupova;KMS;Windows 7;x86;logon 
+2017-06-08;10:47:16;844155096-4;a_vnukov;KMS;Windows XP;x86;logon 
+2017-06-08; 9:47:51;860001761-4;d_romanov_td;KMS;;x64;logon 
+2017-06-08; 9:50:16;829F66725-4;p_kvon;KMS;Windows XP;x86;logon 
+2017-06-08; 9:51:06;860F80000-4;e_popova;KMS;Windows 7;x64;logon 
+2017-06-08; 9:51:15;MSK-TS-SH03;a_mayorov;KMS;Windows Server 2012;x64;logon 
+2017-06-08; 9:51:55;829000040-4;v_dumnova;KMS;Windows 7;x86;logon 
+2017-06-08; 9:54:07;826F66953-4;D_Dobrovolskiy;KMS;Windows 7;x86;logoff;10.4.10.9  
+2017-06-08; 9:54:47;804002736-4;d_frolov;KMS;Windows 7;x64;logon;10.4.3.98  
+2017-06-08; 9:59:00;802F81417-4;G_povetev;KMS;Windows 7;x64;logon;10.4.4.114  
+2017-06-08; 9:59:05;829002734-4;r_zhukov;KMS;Windows 7;x64;logon;10.4.3.228  
+2017-06-08; 9:59:54;860F80573-4;a_kvashenko;KMS;Windows 7;x86;logon;10.51.16.3  
+2017-06-08;10:01:04;MSK-TS-SH01;n_egorova;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;11:05:03;813F82328;o_korolkov;KMS;Windows XP;x86;logoff; 
+2017-06-08;10:05:40;803281701-4;s_kurbakov;KMS;Windows 7;x64;logoff;10.4.3.153  
+2017-06-08;11:10:57;813F82328;o_korolkov;KMS;Windows XP;x86;logon; 
+2017-06-08;10:14:32;829F86492-4;D_Kovshenin;KMS;Windows 7;x64;logon;10.4.10.28  
+2017-06-08;10:14:54;825PL0078-4;S_Belik;KMS;;x86;logoff;10.51.144.71  
+2017-06-08;10:15:54;804000016-4;P_Chizhik;KMS;Windows 7;x64;logon;10.4.3.69  
+2017-06-08;10:16:43;825PL0078-4;S_Belik;KMS;;x86;logon;10.51.144.71  
+2017-06-08;10:18:22;803281701-4;n_kolchenko;KMS;Windows 7;x64;logon;10.4.3.153  
+2017-06-08;10:19:02;854001147-4;u_boganova;KMS;Windows XP;x86;logoff; 
+2017-06-08;10:24:17;854001147-4;u_boganova;KMS;Windows XP;x86;logon; 
+2017-06-08;10:23:27;802002729-4;E_Martynenko;KMS;Windows 7;x64;logon;10.4.5.0  
+2017-06-08;10:25:34;825PL0044-4;e_bahmetova;KMS;;x86;logoff;10.51.144.20  
+2017-06-08;10:26:51;844300287-4;RA_Novikov;KMS;Windows 7;x86;logon;10.4.3.227  
+2017-06-08; 3:27:21;810317901-4;I_Dubkova;KMS;Windows 7;x64;logon;10.4.4.244  
+2017-06-08;10:29:02;MSK-TS-SH01;o_efremenko;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;10:31:59;802200049-4;ai_moiseenko;KMS;Windows 7;x64;logon;10.4.4.230  
+2017-06-08;10:33:36;MSK-TS-SH01;o_luparyova;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;10:33:38;MSK-TS-SH03;a_burdakova;KMS;Windows Server 2012;x64;logon;10.17.48.64  
+2017-06-08;10:34:31;802F86417-4;d_staver;KMS;Windows 7;x64;logon;10.4.4.201  
+2017-06-08;10:35:40;836000046-4;N_Kriventsova;KMS;Windows XP;x86;logoff; 
+2017-06-08;10:37:52;802002521-4;T_stefanovskaja;KMS;Windows 7;x64;logon;10.4.4.254  
+2017-06-08;10:36:53;824A15410-4;t_soboleva;KMS;Windows XP;x86;logon; 
+2017-06-08;10:37:18;803002684-4;a_vihlyaev;KMS;Windows 7;x64;logon;10.4.3.28  
+2017-06-08;10:37:31;836000046-4;a_reshetnikova;KMS;Windows XP;x86;logon; 
+2017-06-08;10:37:46;MSK-TS-SH01;o_solohina;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;10:38:58;802700070-4;g_milyy;KMS;Windows 7;x64;logon;10.4.3.183  
+2017-06-08;10:40:53;825PL0044-4;e_bahmetova;KMS;;x86;logon;10.51.144.20  
+2017-06-08;10:43:13;838300216-4;N_Kriventsova;KMS;Windows 7;x86;logon;10.4.3.154  
+2017-06-08;10:45:06;872F64509-4;Y_Loukyanova;KMS;Windows 7;x86;logon;10.51.144.174  
+2017-06-08; 3:47:14;MSK-ERP-TS;t_soboleva;KMS;Windows Server 2012;x64;logon;10.17.48.24  
+2017-06-08;10:48:38;802009517-4;d_Staver;KMS;Windows 7;x64;logon;10.4.3.239  
+2017-06-08;10:48:52;810F63815-4;a_polynskiy;KMS;Windows 7;x64;logon;10.4.5.53  
+2017-06-08;10:49:27;802002733-4;O_Rumyantseva;KMS;Windows 7;x64;logon;10.4.4.111  
+2017-06-08;10:49:51;MSK-TS-SH01;D_Kornev;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;10:50:38;047000080-4;y_dektyarenko;KMS;Windows 7;x64;logoff;10.4.4.165  
+2017-06-08;10:51:44;838300216-4;v_semenushkina;KMS;Windows 7;x86;logon;10.4.3.154  
+2017-06-08; 3:51:47;MSK-TS-SH01;i_dubkova;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;10:52:18;802F74037-4;O_Dmitriyenko;KMS;Windows 7;x64;logoff;10.4.4.33  
+2017-06-08;10:52:59;047000080-4;y_dektyarenko;KMS;Windows 7;x64;logon;10.4.4.165  
+2017-06-08;10:54:03;803962584-4;Y_Loukyanova;KMS;Windows 7;x64;logon;10.4.3.112  
+2017-06-08;10:57:41;MSK-TS-SH01;ry_novikov;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;11:00:53;803173801-4;s_danilova;KMS;Windows 7;x64;logon;10.4.3.123  
+2017-06-08;11:01:23;MSK-TS-SH01;v_danilov;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;11:05:18;047000076-4;K_Pakhmutkin;KMS;Windows 7;x64;logoff;10.4.4.168  
+2017-06-08;11:06:54;836002595-4;E_Titova;KMS;Windows 7;x64;logon;10.4.3.132  
+2017-06-08;11:07:32;047000076-4;K_Pakhmutkin;KMS;Windows 7;x64;logon;10.4.4.168  
+2017-06-08;11:08:32;829F66952-4;r_zhukov;KMS;Windows XP;x86;logon; 
+2017-06-08;11:08:41;841200083-4;A_Fedorova;KMS;Windows 7;x86;logon;10.4.5.6  
+2017-06-08;11:16:10;826C80279-4;aa_smirnov;KMS;Windows XP;x86;logon; 
+2017-06-08;11:15:48;839002614-4;r_dovgalev;KMS;Windows 7;x64;logoff;10.4.3.193  
+2017-06-08;11:16:20;825PL0044-4;e_bahmetova;KMS;;x86;logoff;10.51.144.20  
+2017-06-08;11:16:33;825PL0038-4;i_miroshnichenko;KMS;;x86;logon;10.51.144.115  
+2017-06-08;11:17:14;825PL0044-4;e_bahmetova;KMS;;x86;logon;10.51.144.20  
+2017-06-08;11:17:34;826F66953-4;D_Dobrovolskiy;KMS;Windows 7;x86;logon;10.4.10.9  
+2017-06-08;11:17:37;802318110-4;g_milyy;KMS;Windows 7;x64;logon;10.4.3.143  
+2017-06-08;11:18:22;839002614-4;r_dovgalev;KMS;Windows 7;x64;logon;10.4.3.193  
+2017-06-08;11:18:59;MSK-TS-SH01;K_Tsygankov;KMS;Windows Server 2012;x64;logoff;10.17.48.61  
+2017-06-08;11:20:16;MSK-TS-SH01;l_drobinskaya;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;11:21:07;825PL0038-4;e_bahmetova;KMS;;x86;logon;10.51.144.115  
+2017-06-08;11:24:04;807000943-4;N_Pogorelova;KMS;Windows 7;x64;logon;10.4.5.36  
+2017-06-08;11:24:23;872F64509-4;K_mineeva;KMS;Windows 7;x86;logon;10.51.144.174  
+2017-06-08;11:28:43;825PL0094-4;L_Malikova;KMS;;x86;logon;10.51.144.177  
+2017-06-08; 4:30:30;MSK-TS-SH01;i_dubkova;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;11:37:48;802002426-4;Y_Vereshchenko;KMS;Windows 7;x64;logon;10.4.5.75  
+2017-06-08;11:39:20;802F63822-4;Y_Vereshchenko;KMS;Windows 7;x64;logoff;10.4.4.175  
+2017-06-08;11:43:16;MSK-TS-SH01;a_semyonova;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;11:43:27;MSK-TS-SH01;i_petrova;KMS;Windows Server 2012;x64;logon;10.17.48.61  
+2017-06-08;11:43:50;MSK-TS-SH03;o_kurkaeva;KMS;Windows Server 2012;x64;logoff;10.17.48.64  
+2017-06-08;11:44:35;808700308-4;a_livirina;KMS;Windows 7;x86;logoff;10.4.4.196  
+2017-06-08;11:44:52;MSK-TS-SH03;d_filippov;KMS;Windows Server 2012;x64;logoff;10.17.48.64  
+2017-06-08;11:44:54;802300174-4;I_Dvoryanov;KMS;Windows 7;x64;logoff;10.4.4.5  
+2017-06-08;11:45:11;803F83089-4;I_puncul;KMS;Windows 7;x64;logon;10.4.3.180  
+2017-06-08;11:45:39;802100529-4;V_Petrov;KMS;Windows 7;x86;logoff;10.4.5.2  
+2017-06-08;11:46:49;804500081-4;S_Nikitin;KMS;Windows 7;x64;logoff;10.4.4.163  
+2017-06-08;11:47:08;802F81417-4;G_povetev;KMS;Windows 7;x64;logoff;10.4.4.114  
+2017-06-08;12:48:32;841F80014O-4;a_sapegin;KMS;Windows XP;x86;logoff; 
+2017-06-08;11:52:08;802300174-4;I_Dvoryanov;KMS;Windows 7;x64;logon;10.4.4.5  
+2017-06-08;11:52:23;802300174-4;I_Dvoryanov;KMS;Windows 7;x64;logoff;10.4.4.5  
+2017-06-08;11:52:25;810595805-4;N_Simakina;KMS;Windows 7;x64;logon;10.4.3.11  
+2017-06-08;11:53:11;854001147-4;u_boganova;KMS;Windows XP;x86;logoff; 
+2017-06-08;11:53:17;803000030-4;A_Voroncova;KMS;Windows 7;x86;logoff;10.4.3.219  
+2017-06-08;11:54:44;840F66995-4;M_Vokun;KMS;Windows XP;x86;logoff; 
+2017-06-08;11:54:59;810318103-4;T_Demidova;KMS;Windows 7;x64;logoff;10.4.5.35  
+2017-06-08;11:57:27;854001147-4;u_boganova;KMS;Windows XP;x86;logon; 
+2017-06-08;11:56:02;824000800O-4;V_Danilov;KMS;Windows XP;x86;logoff; 
+2017-06-08;11:56:42;815500030-4;o_andriyanova;KMS;Windows 7;x86;logoff;10.4.10.27  
+2017-06-08;11:58:49;8024106JB-4;O_Savchenko;KMS;Windows 7;x64;logoff;10.4.3.6  
+2017-06-08;11:58:50;817002738-4;r_ekimov;KMS;Windows 7;x64;logon;10.4.4.222  
+2017-06-08;11:59:04;803173801-4;s_danilova;KMS;Windows 7;x64;logoff;10.4.3.123  
+2017-06-08;11:59:06;803173801-4;n_kolchenko;KMS;Windows 7;x64;logoff;10.4.3.123  
+2017-06-08;12:00:31;841F82594-4;D_Chirva;KMS;Windows 7;x64;logoff;10.4.4.35  
+2017-06-08;12:01:06;803173801-4;s_danilova;KMS;Windows 7;x64;logon;10.4.3.123  
+2017-06-08;12:02:07;810300005G-4;e_zavizion;KMS;Windows XP;x64;logoff; 
+2017-06-08;12:02:36;805500011-4;D_Orlov;KMS;Windows 7;x86;logoff;10.4.3.170  
+2017-06-08;12:02:36;810300005G-4;e_zavizion;KMS;Windows XP;x64;logon; 
+2017-06-08;12:05:09;810595805-4;N_Simakina;KMS;Windows 7;x64;logoff;10.4.3.11  
+2017-06-08;12:07:11;838300080-4;D_Pervin;KMS;Windows 7;x86;logoff;10.4.5.14  
+2017-06-08;12:13:06;803025806-4;ya_labay;KMS;Windows 7;x64;logon;10.4.4.255  
+2017-06-08;12:13:35;802F82249-4;s_uchaykin;KMS;Windows XP;x64;logoff; 
+2017-06-08;12:13:56;804002737-4;v_yushenko;KMS;Windows 7;x64;logoff;10.4.3.159  
+2017-06-08;13:14:12;802000042-4;a_dolgov;KMS;Windows XP;x86;logon; 
+2017-06-08;12:15:58;804F66978-4;E_Sukhorukov;KMS;Windows 7;x86;logon;10.4.3.61  
+2017-06-08;12:17:34;801310601-4;N_Serdyuk;KMS;Windows 7;x64;logon;10.4.10.3  
+2017-06-08;12:21:10;802F82249-4;s_uchaykin;KMS;Windows XP;x64;logon; 
+2017-06-08;12:21:18;802002521-4;A_Khokhlov;KMS;Windows 7;x64;logon;10.4.4.254  
+2017-06-08;12:29:22;803F83736-4;r_sevastyanov;KMS;Windows 7;x64;logon;10.51.144.169  

@@ -19,7 +19,9 @@ if (empty($object) || empty($value)) {
   $dts = DB::getArray("SELECT dt FROM logs GROUP BY dt");
   if (empty($dts)) $dts = array($dt_current);
 
+  $rows = DB::getRows("SELECT * FROM logs WHERE dt>=? AND dt<=? AND {$object}=? ORDER BY id DESC", $dt_start, $dt_end, $value);
   $period = ($dt_start==$dt_end) ? " дата ".$dt_start : " за период с {$dt_start} по {$dt_end}";
+  $period .= " (".count($rows)." ".modifier_plural_form(count($rows),"запись","зиписи","записей").")";
 ?>
 
 <div class="statistics">
@@ -57,10 +59,8 @@ if (empty($object) || empty($value)) {
 </div>
 
 <?php
-  $rows = DB::getRows("SELECT * FROM logs WHERE dt>=? AND dt<=? AND {$object}=? ORDER BY id DESC", $dt_start, $dt_end, $value);
-
   echo "
-  <table>
+  <table class='".$object."'>
     <tr>
       <th>Дата</th>
       <th>Время</th>
@@ -74,8 +74,8 @@ if (empty($object) || empty($value)) {
     <tr>
     <td>{$row['dt']}</td>
     <td>{$row['tm']}</td>
-    <td>".getLinkComputer($row['computername'])."</td>
-    <td>".getLinkAccounts($row['account'])."</td>
+    <td class='c'>".getLinkComputer($row['computername'])."</td>
+    <td class='u'>".getLinkAccounts($row['account'])."</td>
     <td>{$row['action']}</td>
     </tr>
     ";

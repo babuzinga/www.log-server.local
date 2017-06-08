@@ -6,9 +6,9 @@
   $dts = DB::getArray("SELECT dt FROM logs GROUP BY dt");
   if (empty($dts)) $dts = array($dt_current);
 
+  $rows = DB::getRows("SELECT * FROM logs WHERE dt>=? AND dt<=? ORDER BY id DESC", $dt_start, $dt_end);
   $period = ($dt_start==$dt_end) ? " за ".$dt_start : " за период с {$dt_start} по {$dt_end}";
-
-
+  $period .= " (".count($rows)." ".modifier_plural_form(count($rows),"запись","зиписи","записей").")";
 ?>
 
   <div class="statistics">
@@ -43,8 +43,6 @@
   </div>
 
 <?php
-$rows = DB::getRows("SELECT * FROM logs WHERE dt>=? AND dt<=? ORDER BY id DESC", $dt_start, $dt_end);
-
 echo "
   <table>
     <tr>

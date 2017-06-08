@@ -61,14 +61,30 @@ function getVersion($computer) {
   return $version;
 }
 
-function getLinkAccounts($account_name) {
-  $account = getDisplayName($account_name);
-  $link = '<a href="/statistics/?o=account&v='.$account_name.'">'.$account_name.'</a> '.$account;
+function getLinkAccounts($account_name, $card=true) {
+  $link = '<a href="/statistics/?o=account&v='.$account_name.'">'.$account_name.'</a> ';
+  if ($card)
+    $link .= '[<a href="/card/?o=account&v='.$account_name.'" target="_blank">инф.</a>]';
+  else
+    $link .= getDisplayName($account_name);
   return $link;
 }
 
-function getLinkComputer($computer_name) {
-  $version = getVersion($computer_name);
-  $link = '<a href="/statistics/?o=computername&v='.$computer_name.'">'.$computer_name.'</a> '.$version;
+function getLinkComputer($computer_name, $card=true) {
+  $link = '<a href="/statistics/?o=computername&v='.$computer_name.'">'.$computer_name.'</a> ';
+  if ($card)
+    $link .= '[<a href="/card/?o=computername&v='.$computer_name.'" target="_blank">инф.</a>]';
+  else
+    $link .= getVersion($computer_name);
   return $link;
+}
+
+function modifier_plural_form($n, $form1, $form2, $form5='') {
+  if(!$form5) $form5=$form2;
+  $n = abs($n) % 100;
+  $n1 = $n % 10;
+  if ($n > 10 && $n < 20) return $form5;
+  if ($n1 > 1 && $n1 < 5) return $form2;
+  if ($n1 == 1) return $form1;
+  return $form5;
 }

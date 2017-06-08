@@ -29,12 +29,12 @@ if (empty($d)) return false;
 $result = "";
 $computers = DB::getRows('SELECT name FROM computers WHERE name LIKE "%'.$d.'%"');
 foreach ($computers as $computer) {
-  $result .= getLinkComputer($computer['name']).'<br/>';
+  $result .= getLinkComputer($computer['name'], false).'<br/>';
 }
 
-$accounts = DB::getRows('SELECT account FROM accounts WHERE surname LIKE "%'.$d.'%"');
+$accounts = DB::getRows('SELECT account FROM accounts WHERE surname LIKE "%'.$d.'%" OR account LIKE "%'.$d.'%"');
 foreach ($accounts as $account) {
-  $result .= getLinkAccounts($account['account']).'<br/>';
+  $result .= getLinkAccounts($account['account'], false).'<br/>';
 }
 
 echo "<br/>".$result;
