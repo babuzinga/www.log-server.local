@@ -42,13 +42,17 @@ ini_set("memory_limit", "-1");
     padding: 10px;
     margin-bottom: 10px;
   }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
   table th {
     padding: 6px 20px 6px 0;
     text-align: left;
     background: #ffa9a9;
   }
   table td {
-    padding: 5px 30px 5px 0;
+    padding: 3px 30px 2px 0;
     border-top: 1px dotted black;
     vertical-align: top;
   }

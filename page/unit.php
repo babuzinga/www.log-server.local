@@ -8,9 +8,20 @@ if (empty($sp) || empty($level)) {
 } else {
   $filed = "sp".$level;
   $sp = DB::singleRow("SELECT * FROM sp WHERE id=?", $sp);
-  $employees = DB::getRows("SELECT * FROM accounts WHERE {$filed}=?", $sp['code']);
 
-  echo "Список сотрудников, относящихся к СП &#171;" . $sp['name'] . "&#187;<br/><br/>";
+  echo $sp['name']." (".$sp['code'].")<br/><br/>";
+
+  $groups = DB::getRows('SELECT * FROM sp WHERE code LIKE "%'.$sp['code'].'%" AND code!=?', $sp['code']);
+  if (!empty($groups)) {
+    echo "Список групп:";
+    foreach ($groups as $group) {
+      echo '<br/><a href="/unit/?sp='.$group['id'].'&level='.$group['level'].'">'.$group['name'].' ('.$group['code'].')</a>';
+    }
+    echo "<br/><br/>";
+  }
+
+  $employees = DB::getRows("SELECT * FROM accounts WHERE {$filed}=?", $sp['code']);
+  echo "Список сотрудников:<br/>";
 
   $i=1;
   echo '<table><tr><th></th><th>ФИО</th><th>Телефон</th><th>Должность</th></tr>';
