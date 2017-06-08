@@ -1,0 +1,38 @@
+#https://toster.ru/q/121561
+#--------------------------
+#RewriteEngine on
+#RewriteBase /
+#RedirectMatch 403 /\..*$
+#
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#
+#RewriteCond %{REQUEST_URI} !-f
+#RewriteCond %{REQUEST_URI} !/$
+#RewriteCond %{REQUEST_URI} !.html$
+#RewriteCond %{REQUEST_URI} !^/admin
+#RewriteCond %{REQUEST_URI} !^/libs
+#RewriteRule (.+) $1/ [R=301,L]
+#
+#RewriteCond %{REQUEST_URI} !^/libs
+#RewriteRule . index.php
+
+#RewriteCond %{HTTP_HOST} ^www.site.ru$ [NC]
+#RewriteRule ^(.*)$ http://site.ru/$1 [R=301,L]
+
+#ZendFramework
+#-------------
+#DirectoryIndex public/index.php
+#
+#RewriteEngine on
+#RewriteCond %{SCRIPT_FILENAME} !-f
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteRule ^(.*)$ public/$1
+
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/public
+RewriteCond %{REQUEST_URI} !^/ajax
+RewriteRule . index.php [L]

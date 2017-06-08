@@ -1,0 +1,78 @@
+Option Explicit
+
+' Переменные НачальноеВремя и Конечное Время
+Dim StartTime,EndTime: StartTime = Now
+
+Dim objShell
+Dim objFSO
+
+' Версия скрипта
+Const ScriptVersion = "1.01"
+
+' Shell (Оболочка) Windows Script
+Set objShell = WScript.CreateObject("WScript.Shell")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+' Выводим сообщение
+Wscript.Echo "StartTime = " & StartTime
+' ***************************************************************** '
+Const ForReading = 1, ForWriting = 2, ForAppending = 8
+Dim objRootDSE
+Dim objDomain
+Dim objContainer
+Dim objOrganizationalUnit
+Dim strOutputFileName, objOutputFileName, GarbageRC
+Dim intUserObjectCountAll, intUserObjectCountSelected
+
+' Имя файла 
+strOutputFileName = "Roster_export.csv"
+ 
+Set objOutputFileName = objFSO.OpenTextFile(strOutputFileName, ForWriting, True)
+intUserObjectCountAll = 0
+intUserObjectCountSelected = 0
+ 
+Set objRootDSE = GetObject("LDAP://RootDSE")
+Set objDomain = GetObject("LDAP://" & objRootDSE.Get("DefaultNamingContext"))
+ 
+Call Sub_EnumOUs(objDomain.ADsPath)
+ 
+
+Sub Sub_EnumOUs(sADsPath)
+	Set objContainer = GetObject(sADsPath)
+	objContainer.Filter = Array("OrganizationalUnit")
+	For Each objOrganizationalUnit in objContainer
+	
+	WScript.Echo "Checking OU: " & objOrganizationalUnit.ADsPath
+	Wscript.Echo " User Object Count: " & intUserObjectCountAll
+	
+	Sub_EnumUsers(objOrganizationalUnit.ADsPath)
+	Sub_EnumOUs(objOrganizationalUnit.ADsPath)
+Next
+End Sub
+ 
+Sub Sub_EnumUsers(sADsPath)
+	Dim objADobject
+	Set objContainer = GetObject(sADsPath)
+	objContainer.Filter = Array("User")
+	
+	For Each objADobject in objContainer
+		If objADobject.Class = "user" Then
+			intUserObjectCountAll = intUserObjectCountAll + 1
+			If objADobject.Mail <> "" Then
+				objOutputFileName.Writeline(Chr(34) & objADobject.displayName & Chr(34) & "," & objADobject.Mail)
+				intUserObjectCountSelected = intUserObjectCountSelected + 1
+			End If
+		End If
+	Next
+End Sub
+ 
+objOutputFileName.Close
+
+' ***************************************************************** '
+' Конечное время
+EndTime = Now
+' Вывод информации после завершения работы
+Wscript.Echo vbCrLf & "EndTime = " & EndTime
+Wscript.Echo "Seconds Elapsed: " & DateDiff("s", StartTime, EndTime)
+Wscript.Echo "Script Complete"
+Wscript.Quit(0)
