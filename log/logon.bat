@@ -21,7 +21,7 @@ if %PROCESSOR_ARCHITECTURE%==IA64 (set arch=x64)
 if %PROCESSOR_ARCHITECTURE%==AMD64 (set arch=x64)
 if %PROCESSOR_ARCHITECTURE%==x86 (set arch=x86)
 
-set folder=\\kms-file-1\log$\
+set folder=\\log-server\log$\
 ::set folder=d:\load\
 set curdate=%DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%
 set logfile=%folder%%curdate%.log

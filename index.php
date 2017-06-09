@@ -1,4 +1,21 @@
 <?php
+if (empty($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] != 'admin' ||
+    empty($_SERVER['PHP_AUTH_PW']) || $_SERVER['PHP_AUTH_PW'] != 'greend@y') {
+  header('HTTP/1.0 401 Unauthorized');
+  header('WWW-Authenticate: Basic realm="Login"');
+  echo <<<HD
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+<p>This server could not verify that you are authorized to access the document requested. Either you supplied the wrong credentials (e.g., bad password), or your browser doesn't understand how to supply the credentials required.</p>
+</body></html>
+HD;
+  exit;
+}
+
+date_default_timezone_set('Asia/Vladivostok');
 set_time_limit(0);
 //gnore_user_abort(true);
 

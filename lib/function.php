@@ -1,5 +1,5 @@
 <?php
-/*
+
 function to1251($str) {
   if (!is_utf8($str)) return $str;
 
@@ -43,7 +43,7 @@ function var2str($var) {
 
   return $new_str;
 }
-*/
+
 
 
 

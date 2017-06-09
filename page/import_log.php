@@ -3,10 +3,13 @@
 $dt_current = date("Y-m-d");
 DB::query("DELETE FROM logs WHERE dt=?", $dt_current);
 
-$folder = '//kms-file-1/log$';
+
+
+$folder = '//log-server/log$';
 $f = scandir($folder);
 foreach ($f as $file) {
   if (pathinfo($file, PATHINFO_EXTENSION) == 'log'){
+    if (!file_exists($folder.'/'.$file)) continue;
     $file_log = fopen($folder.'/'.$file, 'r');
 
     while(!feof($file_log)) {

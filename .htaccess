@@ -29,7 +29,9 @@
 #RewriteCond %{SCRIPT_FILENAME} !-d
 #RewriteRule ^(.*)$ public/$1
 
-
+#явно выставить кодировку страницу
+php_value mbstring.internal_encoding utf-8
+AddDefaultCharset utf-8
 
 RewriteEngine On
 RewriteBase /
