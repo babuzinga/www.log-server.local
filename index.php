@@ -55,7 +55,7 @@ ini_set("memory_limit", "-1");
   div.menu,
   div.statistics,
   div.search {
-    background: #f5f5f5;
+    background: #e7e7e7;
     padding: 10px;
     margin-bottom: 10px;
   }
@@ -93,6 +93,31 @@ ini_set("memory_limit", "-1");
   }
   span.gr {
     color: gray;
+  }
+  div#note {
+    background: #e7e7e7;
+    width: 500px;
+    min-height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  form#note-edit {
+    display: none;
+  }
+  form#note-edit textarea {
+    width: 500px;
+    min-height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: 1px solid black;
+    border: none;
+  }
+  .cancel {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .cancel:hover {
+    text-decoration: none;
   }
 </style>
 
