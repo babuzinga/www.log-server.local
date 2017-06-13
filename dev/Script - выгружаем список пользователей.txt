@@ -42,8 +42,8 @@ Sub Sub_EnumOUs(sADsPath)
 	objContainer.Filter = Array("OrganizationalUnit")
 	For Each objOrganizationalUnit in objContainer
 	
-	WScript.Echo "Checking OU: " & objOrganizationalUnit.ADsPath
-	Wscript.Echo " User Object Count: " & intUserObjectCountAll
+	' WScript.Echo "Checking OU: " & objOrganizationalUnit.ADsPath
+	' Wscript.Echo " User Object Count: " & intUserObjectCountAll
 	
 	Sub_EnumUsers(objOrganizationalUnit.ADsPath)
 	Sub_EnumOUs(objOrganizationalUnit.ADsPath)
@@ -59,7 +59,7 @@ Sub Sub_EnumUsers(sADsPath)
 		If objADobject.Class = "user" Then
 			intUserObjectCountAll = intUserObjectCountAll + 1
 			If objADobject.Mail <> "" Then
-				objOutputFileName.Writeline(Chr(34) & objADobject.displayName & Chr(34) & "," & objADobject.Mail)
+				objOutputFileName.Writeline(objADobject.displayName & "," & objADobject.sAMAccountName & "," & objADobject.Mail)
 				intUserObjectCountSelected = intUserObjectCountSelected + 1
 			End If
 		End If

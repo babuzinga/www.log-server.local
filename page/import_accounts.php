@@ -14,10 +14,8 @@ while(!feof($file)) {
   $name       = !empty($display_name[1]) ? $display_name[1] : "";
   $patronymic = !empty($display_name[2]) ? $display_name[2] : "";
 
-  $account     = mb_strtolower($row[1]);
-  $account    = str_replace("@kms.scac.ru", "", $account);
-  $account    = str_replace("@scac.ru", "", $account);
-  $mail       = $row[1];
+  $account    = mb_strtolower($row[1]);
+  $mail       = mb_strtolower($row[2]);
 
   DB::query("INSERT INTO accounts (surname,name,patronymic,account,mail) VALUES (?,?,?,?,?)",
   $surname, $name, $patronymic, $account, $mail);
