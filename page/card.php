@@ -51,13 +51,13 @@ if (empty($table) || empty($value)) {
   echo '<div id="note">'.nl2br($note['note']).'</div>';
   echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
 
-  else :
-    echo "<br/>Данных не обнаружено";
-  endif;
-
   if (!empty($_GET['sdb'])) {
     print_array($rows);
   } else {
     echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'&sdb=true">show_db</a>';
   }
+
+  else :
+    echo "<br/>Данных не обнаружено";
+  endif;
 }
