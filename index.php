@@ -190,8 +190,8 @@ ini_set("memory_limit", "-1");
   <div class="search">
     <a href="/">Главная</a>
     &mdash; <a href="/logs/">Логи</a>
-    &mdash; <a href="/import/">Импорт</a>
-    &mdash; Поиск: <input value="" placeholder="Логин, фамилия или имя компьютера" type="text" id="data-search" style="width:300px">
+    &mdash; <a href="/import_log/">Импорт</a>
+    &mdash; Поиск: <input value="" placeholder="СП, логин, фамилия или имя компьютера" type="text" id="data-search" style="width:300px">
     <div id="result-search"></div>
   </div>
 

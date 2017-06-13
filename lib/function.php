@@ -1,5 +1,5 @@
 <?php
-
+/*
 function to1251($str) {
   if (!is_utf8($str)) return $str;
 
@@ -43,10 +43,15 @@ function var2str($var) {
 
   return $new_str;
 }
+*/
 
 
 
 
+function print_array($array, $exit=false) {
+  echo "<pre>".print_r($array, true)."</pre>";
+  if ($exit) exit();
+}
 
 function getDisplayName($account) {
   $account = DB::singleRow("SELECT * FROM accounts WHERE account=?", $account);
@@ -93,6 +98,7 @@ function modifier_plural_form($n, $form1, $form2, $form5='') {
   if ($n1 == 1) return $form1;
   return $form5;
 }
+
 function getSpTree($sp1, $sp2, $sp3) {
   $tree = "";
   if (!empty($sp1)) {
@@ -111,4 +117,11 @@ function getSpTree($sp1, $sp2, $sp3) {
   }
 
   return $tree;
+}
+
+function getLinkSp($sp) {
+  if (empty($sp)) return false;
+  $link = '<a href="/unit/?sp='.$sp['id'].'&level='.$sp['level'].'">'.$sp['name'].' ('.$sp['code'].')</a>';
+
+  return $link;
 }

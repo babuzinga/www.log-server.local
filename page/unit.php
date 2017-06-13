@@ -39,7 +39,7 @@ if (empty($sp) || empty($level)) {
 
   $alias = $sp['code'];
   $note = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
-  echo "<br/>Заметка";
+  echo "<br/>Заметка:";
   echo '<div id="note">'.nl2br($note['note']).'</div>';
-  echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
+  echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
 }

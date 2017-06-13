@@ -21,6 +21,7 @@ if (empty($table) || empty($value)) {
   if (!empty($rows)) :
   switch ($table) {
     case "computers":
+      echo "<h1>Карточка компьютера:</h1>";
       echo '<br/>';
       echo '<span class="gr">Сетевоя имя компьютера:</span> ' . getLinkComputer($rows['name'], false, false) . '<br/>';
       echo '<span class="gr">IP-адрес:</span> ' . $rows['ip'] . '<br/>';
@@ -31,6 +32,7 @@ if (empty($table) || empty($value)) {
     case "accounts":
       $fio = !empty($rows['account']) ? getDisplayName($rows['account']) : $rows['surname']." ".$rows['name']." ".$rows['patronymic'];
 
+      echo "<h1>Карточка пользователя:</h1>";
       echo '<br/>';
       echo '<span class="gr">Фамилия Имя Отчество:</span> ' . $fio . '<br/>';
       echo '<span class="gr">Учетная запись:</span> ' . getLinkAccounts($rows['account'], false, false) . '<br/>';
@@ -45,11 +47,17 @@ if (empty($table) || empty($value)) {
 
   $alias = $value;
   $note = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
-  echo "<br/>Заметка";
+  echo "<br/>Заметка:";
   echo '<div id="note">'.nl2br($note['note']).'</div>';
-  echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
+  echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
 
   else :
     echo "<br/>Данных не обнаружено";
   endif;
+
+  if (!empty($_GET['sdb'])) {
+    print_array($rows);
+  } else {
+    echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'&sdb=true">show_db</a>';
+  }
 }

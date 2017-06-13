@@ -34,9 +34,17 @@ foreach ($computers as $computer) {
 }
 
 $accounts = DB::getRows('SELECT account FROM accounts WHERE (surname!="" AND surname LIKE "%'.$d.'%") OR (account!="" AND account LIKE "%'.$d.'%")');
+if (!empty($result) && !empty($accounts)) $result .= '<br/>';
 foreach ($accounts as $account) {
   if (empty($account['account'])) continue;
   $result .= getLinkAccounts($account['account']).'<br/>';
+}
+
+$sps = DB::getRows('SELECT * FROM sp WHERE (name!="" AND name LIKE "%'.$d.'%") OR (code!="" AND code LIKE "%'.$d.'%")');
+if (!empty($result) && !empty($sps)) $result .= '<br/>';
+foreach ($sps as $sp) {
+  if (empty($sp['name'])) continue;
+  $result .= getLinkSp($sp).'<br/>';
 }
 
 echo "<br/>".$result;
