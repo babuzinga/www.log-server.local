@@ -97,7 +97,7 @@ if (empty($table) || empty($value)) {
   if (!empty($_GET['sdb'])) {
     print_array($rows);
   } else {
-    echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'&sdb=true">show_db</a>';
+    echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'&sdb=true">show_db</a><br/>';
   }
 
   else :
