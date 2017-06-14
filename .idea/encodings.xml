@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/page/import_log.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/page/logs.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/page/unit.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/script.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sql/sp.sql" charset="UTF-8" />
   </component>
 </project>

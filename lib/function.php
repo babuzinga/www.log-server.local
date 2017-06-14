@@ -78,10 +78,11 @@ function getLinkAccounts($account_name, $fio=true, $card=true) {
   return $link;
 }
 
-function getLinkComputer($computer_name, $ver=true, $card=true) {
+function getLinkComputer($computer_name, $ver=true, $card=true, $id="") {
   if (empty($computer_name)) return false;
 
-  $link = '<a href="/statistics/?o=computer&v='.$computer_name.'">'.$computer_name.'</a> ';
+  $id = empty($id) ? "" : ' id="'.$id.'"';
+  $link = '<a href="/statistics/?o=computer&v='.$computer_name.'"'.$id.'>'.$computer_name.'</a> ';
   if ($ver)
     $link .= getVersion($computer_name) . ' ';
   if ($card)

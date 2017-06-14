@@ -1,0 +1,80 @@
+* {
+  font: normal 12px "Courier New";
+  line-height: 1.6;
+}
+b {
+  font-weight: bold;
+}
+div.menu,
+div.statistics,
+div.search {
+  background: #e7e7e7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table th {
+  padding: 6px 20px 6px 0;
+  text-align: left;
+  background: #ffa9a9;
+}
+table td {
+  padding: 3px 30px 2px 0;
+  border-top: 1px dotted black;
+  vertical-align: top;
+}
+table.computer td.c {
+  background: #ffe1e6;
+}
+table.account td.u {
+  background: #ffe1e6;
+}
+a {
+  color: #c90000;
+}
+a.ml {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+select {
+  padding: 4px;
+}
+td.gr {
+  color: gray;
+  vertical-align: middle;
+}
+div#note {
+  background: #e7e7e7;
+  width: 500px;
+  min-height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+}
+form#note-edit {
+  display: none;
+}
+form#note-edit textarea {
+  width: 500px;
+  min-height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: 1px solid black;
+  border: none;
+}
+.cancel {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cancel:hover {
+  text-decoration: none;
+}
+button.copy {
+  cursor: pointer;
+  padding: 2px 10px 0px;
+  margin-left: 10px;
+}
