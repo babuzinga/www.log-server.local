@@ -1,0 +1,3 @@
+ALTER TABLE `computers`
+	ADD COLUMN `ip_type` VARCHAR(20) NULL DEFAULT '' AFTER `ip`,
+	ADD COLUMN `mac` VARCHAR(50) NULL DEFAULT '' AFTER `arch`;

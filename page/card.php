@@ -25,6 +25,8 @@ if (empty($table) || empty($value)) {
       echo '<br/>';
       echo '<span class="gr">Сетевоя имя компьютера:</span> ' . getLinkComputer($rows['name'], false, false) . '<br/>';
       echo '<span class="gr">IP-адрес:</span> ' . $rows['ip'] . '<br/>';
+      echo '<span class="gr">Тип IP-адреса:</span> ' . $rows['ip_type'] . '<br/>';
+      echo '<span class="gr">MAC-адрес:</span> ' . $rows['mac'] . '<br/>';
       echo '<span class="gr">Операционная система:</span> ' . $rows['system'] . '<br/>';
       echo '<span class="gr">Разрядность:</span> ' . $rows['arch'] . '<br/>';
 

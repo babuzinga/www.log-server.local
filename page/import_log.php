@@ -20,7 +20,7 @@ foreach ($f as $file) {
 
       $dt           = $row[0];
       $tm           = $row[1];
-      $computername = $row[2];
+      $computername = strtoupper($row[2]);
       $account      = mb_strtolower($row[3]);
       $domain       = $row[4];
       $system       = $row[5];
@@ -31,6 +31,9 @@ foreach ($f as $file) {
 
       DB::query("INSERT INTO logs (dt,tm,computername,account,domain,action) VALUES (?,?,?,?,?,?)",
       $dt, $tm, $computername, $account, $domain, $action);
+
+      if (empty($computername))
+        continue;
 
       $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computername);
       if (empty($ac)) {
