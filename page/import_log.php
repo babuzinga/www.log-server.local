@@ -37,10 +37,11 @@ foreach ($f as $file) {
 
       $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computername);
       if (empty($ac)) {
-        DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)",
-        $computername, $ip, $system, $arch);
+        DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)", $computername, $ip, $system, $arch);
       } else {
-        DB::query("UPDATE computers SET ip=?, system=?, arch=? WHERE name=?", $ip, $system, $arch, $computername);
+        DB::query("UPDATE computers SET system=?, arch=? WHERE name=?", $system, $arch, $computername);
+        if (!empty($ip))
+          DB::query("UPDATE computers SET ip=? WHERE name=?", $ip, $computername);
       }
     }
 
