@@ -27,6 +27,12 @@ $alias = !empty($_POST['alias']) ? $_POST['alias'] : false;
 
 if (empty($alias)) return false;
 
+if (empty($note) && !empty($alias)) {
+  DB::query("DELETE FROM notes WHERE alias=?", $alias);
+  echo true;
+  exit();
+}
+
 $id = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
 if (empty($id)) {
   DB::query("INSERT INTO notes (note,alias) VALUES (?,?)", $note, $alias);

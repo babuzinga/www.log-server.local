@@ -94,12 +94,6 @@ if (empty($table) || empty($value)) {
       break;
   }
 
-  $alias = $value;
-  $note = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
-  echo "<br/>Заметка:";
-  echo '<div id="note">'.nl2br($note['note']).'</div>';
-  echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
-
   if (!empty($_GET['sdb'])) {
     print_array($rows);
   } else {
@@ -107,6 +101,14 @@ if (empty($table) || empty($value)) {
   }
 
   else :
-    echo "<br/>Данных не обнаружено";
+    echo "<br/>Данных не обнаружено<br/>";
   endif;
+
+  if (!empty($value)) {
+    $alias = $value;
+    $note = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
+    echo "<br/>Заметка:";
+    echo '<div id="note">'.nl2br($note['note']).'</div>';
+    echo '<form id="note-edit"><textarea data-alias="'.$alias.'">'.$note['note'].'</textarea><br/><br/><input type="button" value="Сохранить"> <span class="cancel">Отменить</span></form>';
+  }
 }
