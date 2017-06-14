@@ -20,7 +20,7 @@ foreach ($f as $file) {
 
       $dt           = $row[0];
       $tm           = $row[1];
-      $computername = strtoupper($row[2]);
+      $computer     = strtoupper($row[2]);
       $account      = mb_strtolower($row[3]);
       $domain       = $row[4];
       $system       = $row[5];
@@ -29,19 +29,19 @@ foreach ($f as $file) {
       $ip           = !empty($row[8]) ? $row[8] : "";
       $ip           = str_replace(" ", "", $ip);
 
-      DB::query("INSERT INTO logs (dt,tm,computername,account,domain,action) VALUES (?,?,?,?,?,?)",
-      $dt, $tm, $computername, $account, $domain, $action);
+      DB::query("INSERT INTO logs (dt,tm,computer,account,domain,action) VALUES (?,?,?,?,?,?)",
+      $dt, $tm, $computer, $account, $domain, $action);
 
-      if (empty($computername))
+      if (empty($computer))
         continue;
 
-      $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computername);
+      $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computer);
       if (empty($ac)) {
-        DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)", $computername, $ip, $system, $arch);
+        DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)", $computer, $ip, $system, $arch);
       } else {
-        DB::query("UPDATE computers SET system=?, arch=? WHERE name=?", $system, $arch, $computername);
+        DB::query("UPDATE computers SET system=?, arch=? WHERE name=?", $system, $arch, $computer);
         if (!empty($ip))
-          DB::query("UPDATE computers SET ip=? WHERE name=?", $ip, $computername);
+          DB::query("UPDATE computers SET ip=? WHERE name=?", $ip, $computer);
       }
     }
 

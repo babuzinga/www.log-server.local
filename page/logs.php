@@ -58,7 +58,7 @@ foreach ($rows as $row) {
     <tr>
     <td>{$row['dt']}</td>
     <td>{$row['tm']}</td>
-    <td>".getLinkComputer($row['computername'])."</td>
+    <td>".getLinkComputer($row['computer'])."</td>
     <td>".getLinkAccounts($row['account'])."</td>
     <td>{$row['action']}</td>
     </tr>

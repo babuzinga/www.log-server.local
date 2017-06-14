@@ -2,7 +2,7 @@
 
 $table = false;
 if (!empty($_GET['o'])) {
-  if ($_GET['o'] == "computername") {
+  if ($_GET['o'] == "computer") {
     $table = "computers";
     $filed = "name";
   }

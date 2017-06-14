@@ -22,10 +22,10 @@ DB::connect(DB_HOST,DB_USER,DB_PASSWORD,DB_DATABASE);
 
 
 
-$note = !empty($_POST['note_text']) ? $_POST['note_text'] : false;
+$note = !empty($_POST['note_text']) ? $_POST['note_text'] : "";
 $alias = !empty($_POST['alias']) ? $_POST['alias'] : false;
 
-if (empty($note) || empty($alias)) return false;
+if (empty($alias)) return false;
 
 $id = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
 if (empty($id)) {

@@ -73,7 +73,7 @@ ini_set("memory_limit", "-1");
     border-top: 1px dotted black;
     vertical-align: top;
   }
-  table.computername td.c {
+  table.computer td.c {
     background: #ffe1e6;
   }
   table.account td.u {

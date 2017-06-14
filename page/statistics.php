@@ -2,7 +2,7 @@
 
 $object = false;
 if (!empty($_GET['o'])) {
-  if ($_GET['o'] == "computername") $object = $_GET['o'];
+  if ($_GET['o'] == "computer") $object = $_GET['o'];
   if ($_GET['o'] == "account") $object = $_GET['o'];
 }
 
@@ -11,7 +11,7 @@ $value = !empty($_GET['v']) ? $_GET['v'] : false;
 if (empty($object) || empty($value)) {
   echo "Ошибка получения данных";
 } else {
-  $type = $object == 'computername' ? "компьютера" : "пользователя";
+  $type = $object == 'computer' ? "компьютера" : "пользователя";
   $dt_current = date("Y-m-d");
   $dt_start = !empty($_GET['dt1']) ? $_GET['dt1'] : date("Y-m-d",strtotime("-1 day"));
   $dt_end = !empty($_GET['dt2']) ? $_GET['dt2'] : $dt_current;
@@ -74,7 +74,7 @@ if (empty($object) || empty($value)) {
     <tr>
     <td>{$row['dt']}</td>
     <td>{$row['tm']}</td>
-    <td class='c'>".getLinkComputer($row['computername'])."</td>
+    <td class='c'>".getLinkComputer($row['computer'])."</td>
     <td class='u'>".getLinkAccounts($row['account'])."</td>
     <td>{$row['action']}</td>
     </tr>
