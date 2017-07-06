@@ -32,16 +32,21 @@ foreach ($f as $file) {
       DB::query("INSERT INTO logs (dt,tm,computer,account,domain,action) VALUES (?,?,?,?,?,?)",
       $dt, $tm, $computer, $account, $domain, $action);
 
-      if (empty($computer))
-        continue;
+      if (!empty($computer)) {
+        $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computer);
+        if (empty($ac)) {
+          DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)", $computer, $ip, $system, $arch);
+        } else {
+          DB::query("UPDATE computers SET system=?, arch=? WHERE name=?", $system, $arch, $computer);
+          if (!empty($ip))
+            DB::query("UPDATE computers SET ip=? WHERE name=?", $ip, $computer);
+        }
+      }
 
-      $ac = DB::scalarSelect("SELECT id FROM computers WHERE name=?", $computer);
-      if (empty($ac)) {
-        DB::query("INSERT INTO computers (name,ip,system,arch) VALUES (?,?,?,?)", $computer, $ip, $system, $arch);
-      } else {
-        DB::query("UPDATE computers SET system=?, arch=? WHERE name=?", $system, $arch, $computer);
-        if (!empty($ip))
-          DB::query("UPDATE computers SET ip=? WHERE name=?", $ip, $computer);
+      if (!empty($account)) {
+        $ac = DB::scalarSelect("SELECT id FROM accounts WHERE account=?", $account);
+        if (empty($ac))
+          DB::query("INSERT INTO accounts (account) VALUES (?)", $account);
       }
     }
 
