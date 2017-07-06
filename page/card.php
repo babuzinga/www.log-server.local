@@ -26,7 +26,7 @@ if (empty($table) || empty($value)) {
         <br/>
         <table>
         <tr>
-          <td class="gr">Сетевоя имя компьютера:</td>
+          <td class="gr">Сетевое имя компьютера:</td>
           <td>' . getLinkComputer($rows['name'], false, false, "name") . ' <button class="copy" onclick=CopyToClipboard("name")>copy</button></td>
         </tr>
         <tr>
