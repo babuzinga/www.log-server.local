@@ -24,7 +24,7 @@ table th {
 table td {
   padding: 3px 30px 2px 0;
   border-top: 1px dotted black;
-  vertical-align: top;
+  vertical-align: middle;
 }
 table.computer td.c {
   background: #ffe1e6;
@@ -77,4 +77,18 @@ button.copy {
   cursor: pointer;
   padding: 2px 10px 0px;
   margin-left: 10px;
+}
+
+img.photo {
+  width: 100px;
+  background: url("/public/noavatar.jpg") no-repeat 0 0;
+  background-size: 100px auto;
+  border: none;
+}
+img.photo_mini {
+  width: 40px;
+  background: url("/public/noavatar.jpg") no-repeat 0 0;
+  background-size: 40px auto;
+  border: none;
+  display: block;
 }

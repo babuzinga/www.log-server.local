@@ -24,10 +24,11 @@ if (empty($sp) || empty($level)) {
   echo "Список сотрудников:<br/>";
 
   $i=1;
-  echo '<table><tr><th></th><th>ФИО</th><th>Телефон</th><th>Должность</th></tr>';
+  echo '<table><tr><th></th><th></th><th>ФИО</th><th>Телефон</th><th>Должность</th></tr>';
   foreach ($employees as $employ) {
     echo "<tr>";
     echo "<td>" . $i++ . '.</td>';
+    echo "<td>" . getPhotoEmployee($employ['account'], "photo_mini") . "</td>";
 
     $fio = !empty($employ['account']) ? getLinkAccounts($employ['account']) : $employ['surname']." ".$employ['name']." ".$employ['patronymic'];
     echo "<td>" . $fio . '</td>';

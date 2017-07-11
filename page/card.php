@@ -57,6 +57,8 @@ if (empty($table) || empty($value)) {
       $fio = !empty($rows['account']) ? getDisplayName($rows['account']) : $rows['surname']." ".$rows['name']." ".$rows['patronymic'];
 
       echo "<h1>Карточка пользователя:</h1>";
+      echo getPhotoEmployee($rows['account']);
+
       echo '
         <br/>
         <table>

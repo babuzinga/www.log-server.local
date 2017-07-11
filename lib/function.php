@@ -126,3 +126,11 @@ function getLinkSp($sp) {
 
   return $link;
 }
+
+function getPhotoEmployee($account, $class="photo") {
+  $employ = DB::singleRow("SELECT * FROM accounts WHERE account=?", $account);
+  $fio = $employ['surname']." ".$employ['name']." ".$employ['patronymic'];
+  $photo = "/public/photo/" . $fio . ".JPG";
+
+  return '<a href="/card/?o=account&v='.$account.'"><img src="'.$photo.'" class="'.$class.'"></a>';
+}
