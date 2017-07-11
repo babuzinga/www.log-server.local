@@ -128,6 +128,8 @@ function getLinkSp($sp) {
 }
 
 function getPhotoEmployee($account, $class="photo") {
+  if (empty($account)) return false;
+
   $employ = DB::singleRow("SELECT * FROM accounts WHERE account=?", $account);
   $fio = $employ['surname']." ".$employ['name']." ".$employ['patronymic'];
   $photo = "/public/photo/" . $fio . ".JPG";
