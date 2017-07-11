@@ -1,5 +1,5 @@
 <?php
-/*
+
 function to1251($str) {
   if (!is_utf8($str)) return $str;
 
@@ -13,7 +13,7 @@ function is_utf8($str) {
 function from1251($str) {
   if (is_utf8($str)) return $str;
 
-  // ¬ременный поиск бага
+  // Временный поиск бага
   set_error_handler(function($errno, $errstr) {
     $str = "iconv error (see from1251)\n";
     $str .= "iconv_str={$GLOBALS['iconv_str']}\n";
@@ -43,7 +43,7 @@ function var2str($var) {
 
   return $new_str;
 }
-*/
+
 
 
 
