@@ -27,7 +27,7 @@ $d = !empty($_POST['val']) ? $_POST['val'] : false;
 if (empty($d)) return false;
 
 $result = "";
-$computers = DB::getRows('SELECT name FROM computers WHERE name!="" AND name LIKE "%'.$d.'%"');
+$computers = DB::getRows('SELECT name FROM computers WHERE (name!="" AND name LIKE "%'.$d.'%") OR (mac!="" AND mac LIKE "%'.$d.'%")');
 foreach ($computers as $computer) {
   if (empty($computer['name'])) continue;
   $result .= getLinkComputer($computer['name']).'<br/>';
