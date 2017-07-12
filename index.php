@@ -49,30 +49,32 @@ ini_set("memory_limit", "-1");
 </head>
 
 <body>
-  <div class="search">
-    <a href="/">Главная</a>
-    &mdash; <a href="/logs/">Логи</a>
-    &mdash; <a href="/import_log/">Импорт</a>
-    &mdash; Поиск: <input value="" placeholder="СП, логин, фамилия, имя или mac-адрес компьютера" type="text" id="data-search" style="width:400px">
-    <div id="result-search"></div>
+  <div id="main">
+    <div class="search">
+      <a href="/">Главная</a>
+      &mdash; <a href="/logs/">Логи</a>
+      &mdash; <a href="/import_log/">Импорт</a>
+      &mdash; Поиск: <input value="" placeholder="СП, логин, фамилия, имя или mac-адрес компьютера" type="text" id="data-search" style="width:400px">
+      <div id="result-search"></div>
+    </div>
+
+    <?php
+      $url = parse_url($_SERVER['REQUEST_URI']);
+      $request = $url['path'];
+
+      if ($request == "/") {
+        $page = 'main';
+      } else {
+        $page = str_replace("/", "", $request);
+      }
+
+      $folder = BASE_DIR."/page/";
+      if (file_exists($folder."{$page}.php"))
+        include $folder."{$page}.php";
+      else
+        include $folder."error404.php";
+    ?>
   </div>
-
-  <?php
-    $url = parse_url($_SERVER['REQUEST_URI']);
-    $request = $url['path'];
-
-    if ($request == "/") {
-      $page = 'main';
-    } else {
-      $page = str_replace("/", "", $request);
-    }
-
-    $folder = BASE_DIR."/page/";
-    if (file_exists($folder."{$page}.php"))
-      include $folder."{$page}.php";
-    else
-      include $folder."error404.php";
-  ?>
 </body>
 </html>
 
