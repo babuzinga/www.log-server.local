@@ -28,6 +28,7 @@ define('DB_USER',     'root');
 define('DB_PASSWORD', '');
 define('DB_HOST',     '127.0.0.1');
 define('BASE_DIR',    dirname(__FILE__));
+define('HTTP_HOST',   $_SERVER['HTTP_HOST']);
 
 DB::connect(DB_HOST,DB_USER,DB_PASSWORD,DB_DATABASE);
 ini_set('display_errors', 'on');

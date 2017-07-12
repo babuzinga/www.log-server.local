@@ -136,3 +136,18 @@ function getPhotoEmployee($account, $class="photo") {
 
   return '<a href="/card/?o=account&v='.$account.'"><img src="'.$photo.'" class="'.$class.'"></a>';
 }
+
+// Получение сида по ключю
+function getSidByKey($key) {
+  return ($key * 19) + 100879141;
+}
+
+// Получение ключа по сиду
+function getKeyOnSid($sid) {
+  return ($sid - 100879141) / 19;
+}
+
+function echoStop($value="") {
+  echo $value;
+  exit();
+}

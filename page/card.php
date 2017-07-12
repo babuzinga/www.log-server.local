@@ -19,9 +19,10 @@ if (empty($table) || empty($value)) {
 } else {
   $rows = DB::singleRow("SELECT * FROM {$table} WHERE {$filed}=?", $value);
   if (!empty($rows)) :
-  switch ($table) {
+    switch ($table) {
     case "computers":
       echo "<h1>Карточка компьютера:</h1>";
+
       echo '
         <br/>
         <table>
@@ -95,13 +96,7 @@ if (empty($table) || empty($value)) {
 
       break;
   }
-
-  if (!empty($_GET['sdb'])) {
-    print_array($rows);
-  } else {
-    echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'&sdb=true">show_db</a><br/>';
-  }
-
+    echo '<br/><a href="/edit/?o='.$_GET['o'].'&v='.$value.'">Редактор данных</a><br/>';
   else :
     echo "<br/>Данных не обнаружено<br/>";
   endif;

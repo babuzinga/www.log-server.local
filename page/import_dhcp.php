@@ -12,6 +12,8 @@ while(!feof($file)) {
   $ip           = str_replace(" ", "", $row[0]);
   $ip_type      = "";
   $mac          = str_replace(" ", "", $row[2]);
+  $mac          = str_replace("-", "", $mac);
+  $mac          = str_replace("-", "", $mac);
   $computer     = strtoupper($row[4]);
 
   if (stristr($computer, 'D- ') !== false)

@@ -8,9 +8,18 @@ $accounts = DB::getRows("SELECT account, COUNT(id) AS cnt FROM logs WHERE dt=? G
 
 
 echo "<br/>Топ {$limit} активностей за ".$dt."<br/><br/>";
-echo "<table>";
+echo "
+  <table>
+    <tr>
+      <th>Компьютеры</th>
+      <th></th>
+      <th>Пользователи</th>
+    </tr>
+  ";
 
 for ($i = 0; $i <= $limit; $i++) {
+
+  if (empty($computers[$i]) && empty($accounts[$i])) break;
   echo "<tr>";
   echo "<td>";
   echo !empty($computers[$i]) ? '('.$computers[$i]['cnt'].') '.getLinkComputer($computers[$i]['computer'], false) : "";

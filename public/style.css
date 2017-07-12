@@ -17,7 +17,7 @@ table {
   border-spacing: 0;
 }
 table th {
-  padding: 6px 20px 6px 0;
+  padding: 6px 20px 2px 0;
   text-align: left;
   background: #ffa9a9;
 }
@@ -25,6 +25,9 @@ table td {
   padding: 3px 30px 2px 0;
   border-top: 1px dotted black;
   vertical-align: middle;
+}
+table tr td:last-child {
+  padding-right: 0;
 }
 table.computer td.c {
   background: #ffe1e6;
@@ -67,6 +70,7 @@ form#note-edit textarea {
   border: none;
 }
 .cancel {
+  color: #c90000;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -91,4 +95,12 @@ img.photo_mini {
   background-size: 40px auto;
   border: none;
   display: block;
+}
+#edit_data input[type=text] {
+  width: 400px;
+}
+#edit_data .success {
+  display: none;
+  background: #dadada;
+  padding: 5px 10px;
 }

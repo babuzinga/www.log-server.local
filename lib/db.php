@@ -238,9 +238,9 @@ class DB
 
 		return self::getInsertId();
 	}
-	
-	
-	function update($table, $id, $values=Array())
+
+
+  static function update($table, $id, $values=Array())
 	{
 		$id = intval($id);
 		unset($values['id']);

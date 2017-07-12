@@ -22,10 +22,10 @@ $(document).ready(function () {
   });
   // --------------------------------------------------------------------------
   var $note = $("#note"),
-    $note_edit = $("#note-edit"),
-    $button = $note_edit.find('input[type="button"]'),
-    $text = $note_edit.find('textarea'),
-    $cancel = $note_edit.find('.cancel');
+      $note_edit = $("#note-edit"),
+      $button = $note_edit.find('input[type="button"]'),
+      $text = $note_edit.find('textarea'),
+      $cancel = $note_edit.find('.cancel');
 
   $note.dblclick(function(){
     $(this).hide();
@@ -58,6 +58,31 @@ $(document).ready(function () {
     var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');
   }
+  // --------------------------------------------------------------------------
+  var $form_edit = $('#edit_data'),
+      $submit = $form_edit.find('input[name=save]'),
+      $success = $form_edit.find('.success'),
+      fd = new FormData;
+
+  $submit.click(function(){
+    $.each($form_edit.serializeArray(), function(key, input){
+      fd.append(input.name, input.value);
+    });
+
+    $.ajax({
+      url: '/ajax/save-edit-object.php/',
+      type: 'POST',
+      data: fd,
+      processData: false,
+      contentType: false,
+      success: function(data) {
+        $success.html(data).show();
+        return false;
+      },
+      error: function() { alert('Ошибка выполнения запроса'); return false; }
+    });
+  });
+  // --------------------------------------------------------------------------
 });
 
 function CopyToClipboard(containerid) {

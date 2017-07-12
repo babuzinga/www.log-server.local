@@ -47,5 +47,4 @@ foreach ($sps as $sp) {
   $result .= getLinkSp($sp).'<br/>';
 }
 
-echo "<br/>".$result;
-exit();
+echoStop("<br/>".$result);

@@ -29,8 +29,7 @@ if (empty($alias)) return false;
 
 if (empty($note) && !empty($alias)) {
   DB::query("DELETE FROM notes WHERE alias=?", $alias);
-  echo true;
-  exit();
+  echoStop(true);
 }
 
 $id = DB::singleRow("SELECT * FROM notes WHERE alias=?", $alias);
@@ -40,5 +39,4 @@ if (empty($id)) {
   DB::query("UPDATE notes SET note=? WHERE alias=?", $note, $alias);
 }
 
-echo true;
-exit();
+echoStop(true);
