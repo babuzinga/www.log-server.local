@@ -21,7 +21,7 @@ if (empty($object) || empty($value)) {
 
   $rows = DB::getRows("SELECT * FROM logs WHERE dt>=? AND dt<=? AND {$object}=? ORDER BY id DESC", $dt_start, $dt_end, $value);
   $period = " за период с {$dt_start} по {$dt_end}";
-  $period .= " (".count($rows)." ".modifier_plural_form(count($rows),"запись","зиписи","записей").")";
+  $period .= " (".count($rows)." ".modifier_plural_form(count($rows),"запись","записи","записей").")";
 ?>
 
 <div class="statistics">

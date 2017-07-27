@@ -37,8 +37,8 @@ if (empty($table) || empty($value)) {
     foreach ($rows as $key => $row) {
       $disabled = "";
       if (
-        ($table == "computers" && in_array($key, array("id", "name"))) ||
-        ($table == "accounts" && in_array($key, array("id", "account")))
+        ($table == "computers" && in_array($key, array("id"))) ||
+        ($table == "accounts" && in_array($key, array("id")))
       ) {
         $disabled = "disabled=disabled";
       }
